@@ -67,3 +67,4 @@ for i in range(1,n_harm+1):
     x = solve(A, b_bis)
 
     b[:,i-1] = x
+

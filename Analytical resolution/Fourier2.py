@@ -15,10 +15,10 @@ for k in range(1,n_harm+1):
     f = f + 2*L/(np.pi*k)*(np.cos(k*np.pi) - np.cos(k*np.pi*(d-L)/L))*np.sin(k*np.pi*x/L)
     Mps = Mps + 2*L/(np.pi*k)*(np.cos(k*np.pi) - np.cos(k*np.pi*(d-L)/L))
 
-'''
+
 plt.plot(x,f)
 plt.axvline(-L+d/2, c='r')
 plt.axvline(L-d/2, c='r')
 plt.show()
-'''
+
 print(Mps)

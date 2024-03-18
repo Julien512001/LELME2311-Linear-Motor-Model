@@ -4,12 +4,6 @@ from Region1 import *
 from Region2 import *
 
 
-x, y = np.meshgrid(p, q)
-
-
-
-
-
 print(Bp1.shape)
 print(Bp2.shape)
 
