@@ -1,20 +1,23 @@
 import numpy as np
 
 
+Br = 1.21
 
+Mp = Br/(4*np.pi*10**(-7))
+print(Mp)
 
-Mp = 12600
-L = 1.0
-d = 0.8
+#L = (4e-3 + 0.5e-3)/2.0
+L = 1e-3 + 1e-3 + 2.5e-3 + 1e-3 + 1e-3
+d = 5e-3
 
-n_harm = 100
+n_harm = 50
 n_mesh = 500
 
 
 # Region 1 height (magnet)
-hm = 0.1
+hm = 1e-3
 # Region 2 height (airgap)
-ha = 0.2
+ha = 1e-3
 
 h = hm + ha
 

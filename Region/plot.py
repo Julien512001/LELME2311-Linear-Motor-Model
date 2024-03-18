@@ -33,11 +33,11 @@ plt.colorbar()
 
 plt.figure()
 plt.title("Bq2 interface")
-plt.plot(Q, Bq2[:,-1])
+plt.plot(Q, Bq2[:,0])
 
 plt.figure()
 plt.title("Bp2 interface")
-plt.plot(Q, Bp2[:,-1])
+plt.plot(Q, Bp2[:,0])
 
 
 

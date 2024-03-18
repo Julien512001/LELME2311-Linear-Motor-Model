@@ -32,14 +32,14 @@ f = np.zeros(len(Q))
 
 for i in range(1, n_harm+1):
 
-    Mps = Mps + 2*L/(np.pi*i)*(np.cos(i*np.pi) - np.cos(i*np.pi*(d-L)/L))
+    Mps = 2*L/(np.pi*i)*(np.cos(i*np.pi) - np.cos(i*np.pi*(d-L)/L))
     f = f + 2*L/(np.pi*i)*(np.cos(i*np.pi) - np.cos(i*np.pi*(d-L)/L))*np.sin(i*np.pi*Q/L)
 
     omega_n = np.pi*i/L
-    an_2 = b[0,i-1]
-    bn_2 = b[1,i-1]
-    cn_2 = b[2,i-1]
-    dn_2 = b[3,i-1]
+    an_2 = b[4,i-1]
+    bn_2 = b[5,i-1]
+    cn_2 = b[6,i-1]
+    dn_2 = b[7,i-1]
 
     Bqc_2 = an_2*np.exp(omega_n*p) - bn_2*np.exp(-omega_n*p)
     Bqs_2 = cn_2*np.exp(omega_n*p) - dn_2*np.exp(-omega_n*p)
