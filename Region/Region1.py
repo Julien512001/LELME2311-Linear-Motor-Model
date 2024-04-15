@@ -37,8 +37,8 @@ f = np.zeros(len(Q))
 
 for i in range(1, n_harm+1):
 
-    Mps = 2*L/(np.pi*i)*(np.cos(i*np.pi) - np.cos(i*np.pi*(d-L)/L))
-    f = f + 2*L*Mp/(np.pi*i)*(np.cos(i*np.pi) - np.cos(i*np.pi*(d-L)/L))*np.sin(i*np.pi*Q/L)
+    Mps = 2*Mp/(np.pi*i)*(np.cos(i*np.pi) - np.cos(i*np.pi*(d-L)/L))
+    f = f + Mps*np.sin(i*np.pi*Q/L)
     omega_n = np.pi*i/L
     an_1 = b[0,i-1]
     bn_1 = b[1,i-1]
@@ -59,5 +59,3 @@ B1 = np.zeros_like(p)
 for i in range(len(p)):
     for j in range(len(q)):
         B1[i][j] = np.sqrt(Bq1[i][j]**2 + Bp1[i][j]**2)
-
-print(Bq1.shape)
