@@ -16,6 +16,8 @@ print(Mp)
 
 # Définition de L comme étant la longueur d'un aimant plus un airgap
 L = 0.042
+# d = 0.038
+# d/2 = 0.019
 d = 2.0*L/3.0
 #d = 0.02*2
 #L = d + 4e-3/2.0
@@ -28,13 +30,13 @@ n_mesh = 500
 
 
 # Region 1 height (magnet)
-#hm = 1e-3
+#hm = 0.45
 hm = 45e-3
 # Region 2 height (airgap)
-#ha = 1e-3
+# ha = 0.15
 ha = 15e-3
 
-
+# h = 0.60
 h = hm + ha
 
 # Region 1 : mu
