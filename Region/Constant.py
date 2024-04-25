@@ -7,11 +7,7 @@ Br = 1.21
 mu0 = 4*np.pi*10**(-7)
 
 Mp = Br/mu0
-#L = (4e-3 + 0.5e-3)/2.0
-print(Mp)
-#L = 1e-3 + 1e-3 + 2.5e-3 + 1e-3 + 1e-3
-#d = 5e-3
-# d/2 = 20 mm
+
 
 
 # Définition de L comme étant la longueur d'un aimant plus un airgap
@@ -19,15 +15,22 @@ L = 0.042
 # d = 0.038
 # d/2 = 0.019
 d = 2.0*L/3.0
-#d = 0.02*2
-#L = d + 4e-3/2.0
-print(L)
-print(d)
-
 
 n_harm = 50
 n_mesh = 500
 
+
+# Section du câble en mm^2
+S = 10
+
+# Densité de courant en A/mm^2
+Jl0 = 5
+
+# Courant de la machine
+I = Jl0 * S
+
+
+L2 = 1
 
 # Region 1 height (magnet)
 #hm = 0.45

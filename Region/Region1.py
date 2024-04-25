@@ -11,29 +11,17 @@ Q = np.linspace(-L+d/2, L-d/2, n_mesh) # x
 p,q = np.meshgrid(P,Q)
 
 Mps = 0
-'''
+
 Bq0_1 = np.zeros_like(p)
 Bqc_1 = np.zeros_like(p)
 Bqs_1 = np.zeros_like(p)
 Bpc_1 = np.zeros_like(p)
 Bps_1 = np.zeros_like(p)
-'''
-Bq0_1 = 0
-Bqc_1 = 0
-Bqs_1 = 0
-Bpc_1 = 0
-Bps_1 = 0
 
-
-
-
-#Bq1 = np.zeros(len(q))
-#Bp1 = np.zeros(len(p))
 Bq1 = np.zeros_like(p)
 Bp1 = np.zeros_like(p)
 
 f = np.zeros(len(Q))
-
 
 for i in range(1, n_harm+1):
 
