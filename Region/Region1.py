@@ -26,7 +26,10 @@ f = np.zeros(len(Q))
 for i in range(1, n_harm+1):
 
     Mps = 2*Mp/(np.pi*i)*(np.cos(i*np.pi) - np.cos(i*np.pi*(d-L)/L))
-    f = f + Mps*np.sin(i*np.pi*Q/L)
+    #Mps = ( 2*L*Mp*np.sin(np.pi*d*i/(4*L)) * np.sin(i*(np.pi - 3*np.pi*d/(4*L))) - 0.6366/L )/i
+    #Mps = L*Mp*0.3183/(L*i) * ( (np.cos(i*np.pi) - np.cos(i*np.pi*(d-L)/L)) + (np.cos(i*np.pi) - np.cos(i*np.pi*(L-d)/L)))
+
+    #f = f + Mps*np.sin(i*np.pi*Q/L)
     omega_n = np.pi*i/L
     an_1 = b[0,i-1]
     bn_1 = b[1,i-1]

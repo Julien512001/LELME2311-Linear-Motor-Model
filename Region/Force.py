@@ -9,4 +9,4 @@ p,q = np.meshgrid(P,Q)
 
 
 omega_1 = np.pi/L
-F_active = 3/2 * omega_1 * phi0 * I
+F_active = 3/2 * omega_1 * phi_fond * I

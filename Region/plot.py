@@ -27,7 +27,6 @@ ax = plt.gca()
 ax.set_aspect(1)
 """
 
-
 fig = plt.figure()
 plt.title("Bq1 interface")
 plt.xlim(-L+d/2.0, L-d/2.0)
@@ -37,7 +36,6 @@ plt.figure()
 plt.title("Bp1 interface")
 plt.xlim(-L+d/2.0, L-d/2.0)
 plt.plot(Q, Bp1[:,-1])
-
 
 """
 plt.figure()
@@ -66,21 +64,23 @@ plt.figure()
 plt.title("B1")
 plt.plot(Q, B1[:,0])
 """
-
-# Magnetic potential plot
 """
+# Magnetic potential plot
 plt.figure()
 plt.title("A")
 plt.contourf(q,p, Al, levels = 50)
 plt.xlim(-L+d/2.0, L-d/2.0)
+ax = plt.gca()
+ax.set_aspect(1)
 plt.colorbar()
 
 plt.figure()
 plt.title("A")
 plt.contour(q,p, Al, levels = 50)
 plt.xlim(-L+d/2.0, L-d/2.0)
+ax = plt.gca()
+ax.set_aspect(1)
 plt.colorbar()
-
 
 # flux plot
 
@@ -88,7 +88,9 @@ plt.figure()
 plt.title("$\phi$")
 plt.contour(q,p, phi, levels = 50)
 plt.xlim(-L+d/2.0, L-d/2.0)
+ax = plt.gca()
+ax.set_aspect(1)
 plt.colorbar()
-
 """
+
 plt.show()

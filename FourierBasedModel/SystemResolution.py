@@ -8,13 +8,13 @@ b = np.zeros((8,n_harm))
 Mps = 0
 
 for i in range(1,n_harm+1):
-    omega_n = i*np.pi/L
+    omega_n = i*np.pi/tau_k
 
-    Mps = 2*Mp/(np.pi*i)*(np.cos(i*np.pi) - np.cos(i*np.pi*(d-L)/L))
+    Mps = -2*Mp/(np.pi*i) * (np.cos(np.pi*i/(tau_k)*e/2) - np.cos(np.pi*i/(tau_k)*(e/2 - tau_k)))
 
     exp_pos_m = np.exp(omega_n*hm)
     exp_neg_m = np.exp(-omega_n*hm)
-    exp_pos_a = np.exp(omega_n*h) 
+    exp_pos_a = np.exp(omega_n*h)
     exp_neg_a = np.exp(-omega_n*h)
     A = np.zeros((8,8))
     b_bis = np.zeros(8)
@@ -66,3 +66,5 @@ for i in range(1,n_harm+1):
     x = solve(A, b_bis)
 
     b[:,i-1] = x
+
+
