@@ -6,25 +6,66 @@ from Potentiel import *
 #from Flux import *
 
 
-fig = plt.figure()
-plt.title("Bq1 interface")
-plt.xlim(-q_femm, q_femm)
-plt.plot(q, Bq1[-1, :])
 
-plt.figure()
-plt.title("Bp1 interface")
+"""
+plt.figure(figsize=(8, 6))
+plt.plot(q, Bq1[-1, :], color='b', label='$B_{q1}$')
 plt.xlim(-q_femm, q_femm)
-plt.plot(q, Bp1[-1, :])
+plt.xlabel('$q [mm]$')
+plt.ylabel('$B_{q1} [T]$')
+plt.title('Magnetic field')
+plt.grid(True)
+plt.legend()
 
-plt.figure()
-plt.title("Bq2 interface")
+plt.figure(figsize=(8, 6))
+plt.plot(q, Bp1[-1, :], color='b', label='$B_{p1}$')
 plt.xlim(-q_femm, q_femm)
-plt.plot(q, Bq2[-1,:])
+plt.xlabel('$q [mm]$')
+plt.ylabel('$B_{p1} [T]$')
+plt.title('Magnetic field')
+plt.grid(True)
+plt.legend()
+"""
+"""
+plt.figure(figsize=(8, 6))
+plt.plot(q, Bp1[-1, :], color='b', label='$B_{p1}$')
+plt.plot(q, Bq1[-1, :], color='r', label='$B_{q1}$')
+plt.xlim(-q_femm, q_femm)
+plt.xlabel('$q [mm]$')
+plt.ylabel('$B_{p1}$ and $B_{q1}$')
+plt.title('Magnetic field')
+plt.grid(True)
+plt.legend()
+"""
+"""
+plt.figure(figsize=(8, 6))
+plt.plot(q, Bq2[0, :], color='b', label='$B_{q2}$')
+plt.xlim(-q_femm, q_femm)
+plt.xlabel('$q [mm]$')
+plt.ylabel('$B_{q2} [T]$')
+plt.title('Magnetic field')
+plt.grid(True)
+plt.legend()
 
-plt.figure()
-plt.title("Bp2 interface")
+plt.figure(figsize=(8, 6))
+plt.plot(q, Bp2[0, :], color='b', label='$B_{p2}$')
 plt.xlim(-q_femm, q_femm)
-plt.plot(q, Bp2[-1,:])
+plt.xlabel('$q [mm]$')
+plt.ylabel('$B_{p2} [T]$')
+plt.title('Magnetic field')
+plt.grid(True)
+plt.legend()
+"""
+
+plt.figure(figsize=(8, 6))
+plt.plot(q, Bp1[0, :], color='b', label='$B_{p1}$')
+plt.plot(q, Bq1[0, :], color='r', label='$B_{q1}$')
+plt.xlim(-q_femm, q_femm)
+plt.xlabel('$q [mm]$')
+plt.ylabel('$B_{p1}$ and $B_{q1}$')
+plt.title('Magnetic field')
+plt.grid(True)
+plt.legend()
 
 """
 # Magnetic potential plot
