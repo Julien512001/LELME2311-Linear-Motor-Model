@@ -5,7 +5,6 @@ from Region2 import *
 from Potentiel import *
 #from Flux import *
 
- 
 
 fig = plt.figure()
 plt.title("Bq1 interface")

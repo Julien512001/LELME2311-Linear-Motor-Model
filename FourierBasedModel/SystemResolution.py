@@ -63,8 +63,19 @@ for i in range(1,n_harm+1):
 
     # Vector definition
     b_bis[0] = -mu0*Mps
-    x = solve(A, b_bis)
+    x = np.linalg.solve(A, b_bis)
 
     b[:,i-1] = x
 
+"""
+def write_matrix_to_file(matrix, file_name):
+    with open(file_name, 'w') as file:
+        for row in matrix:
+            row_str = ' '.join(map(str, row))
+            file.write(row_str + '\n')
 
+
+file_name = 'matrice1.txt'
+write_matrix_to_file(b, file_name)
+print("La matrice a été écrite dans le fichier", file_name)
+"""

@@ -17,7 +17,7 @@ phi_fond = np.zeros_like(P2)
 phi_harm = np.zeros_like(P2)
 
 F_active = np.zeros_like(P2)
-F_ripple = np.zeros_like(P2)
+F_ripple = 0
 
 
 for i in range(1, n_harm+1):
@@ -34,17 +34,13 @@ for i in range(1, n_harm+1):
     C = b[6, i-1]/omega_n
     D = b[7, i-1]/omega_n
 
-    Aps = C*np.exp(P2*omega_n) + D*np.exp(-P2*omega_n) - mu0*Mpc/omega_n + mu1*Jls/(omega_n**2)
-    Apc = A*np.exp(P2*omega_n) + B*np.exp(-P2*omega_n) + mu0*Mps/omega_n + mu1*Jlc/(omega_n**2)
-
-
+    Aps = C*np.exp(P2*omega_n) + D*np.exp(-P2*omega_n) - mu0*Mpc/omega_n
+    Apc = A*np.exp(P2*omega_n) + B*np.exp(-P2*omega_n) + mu0*Mps/omega_n
 
     if (i == 1):
         A_fond = Aps*np.sin(omega_n*q) + Apc*np.cos(omega_n*q)
         phi_fond = Nt*2*Lz*A_fond[250][250]
         F_active = 3/2 * omega_n * phi_fond * I
-        print("Fondamentale")
-        print(F_active)
     else:
         A_int = Aps*np.sin(omega_n*q) + Apc*np.cos(omega_n*q)
         A_harm += A_int
@@ -52,13 +48,10 @@ for i in range(1, n_harm+1):
         phi_harm += phi_int
         F_int = 3/2 * omega_n * phi_int * I
         F_ripple += F_int
-        
-        print("----")
-        print(i)
-        print(F_int)
-        
 
 
 Al = A_fond + A_harm
 phi = phi_fond + phi_harm
 F = F_active + F_ripple
+
+print(F_ripple)

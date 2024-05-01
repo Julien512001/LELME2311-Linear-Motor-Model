@@ -10,12 +10,13 @@ q_femm = tau_k/2
 
 
 # Problem dimensions in [mm]
-tau_k = 20e-3           # half period of the problem : 42 mm
+tau_k = 100e-3           # half period of the problem : 42 mm
 hm = 10e-3          # PM height (region 1) : 45mm
 ha = 0.25e-3          # air-gap height (region 2) : 15mm
 h = hm + ha         # Total height
 e = 1/3 * tau_k             # PM air-gap lenght --> to be defined in term of tau_k
 q_femm = tau_k/2
+
 
 # Linspace and mesh definition
 n_mesh = 500
@@ -43,12 +44,12 @@ Br = 1.21
 Mp = Br/mu0
 
 # Number of harmonics
-n_harm = 8
+n_harm = 100
 
 
 # Section du câble en mm^2
 S = 10
-Nt = 50
+Nt = 10
 
 # Densité de courant en A/mm^2
 J = 5
@@ -56,8 +57,9 @@ J = 5
 # Courant de la machine
 I = J * S
 
-Lz = 45
 
 
-
+# Winding dimension
+Lz = 45e-3                          # Lz est la profondeur de la machine
+y_median = hm + ha + 0.1e-3         # y_median est la hauteur du milieu de la bobine
 

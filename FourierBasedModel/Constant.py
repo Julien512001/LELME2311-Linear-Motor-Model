@@ -10,7 +10,7 @@ q_femm = tau_k/2
 
 
 # Problem dimensions in [mm]
-tau_k = 20e-3           # half period of the problem : 42 mm
+tau_k = 100e-3           # half period of the problem : 42 mm
 hm = 10e-3          # PM height (region 1) : 45mm
 ha = 0.25e-3          # air-gap height (region 2) : 15mm
 h = hm + ha         # Total height
@@ -43,7 +43,7 @@ Br = 1.21
 Mp = Br/mu0
 
 # Number of harmonics
-n_harm = 8
+n_harm = 100
 
 
 # Section du câble en mm^2
