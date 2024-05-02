@@ -55,7 +55,7 @@ Nt = 10
 J = 5
 
 # Courant de la machine
-I = J * S
+I = J * S 
 
 
 
