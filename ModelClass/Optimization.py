@@ -26,15 +26,21 @@ from optimeed.core.evaluators import PermanentMultiprocessEvaluator, Multiproces
 import time
 import os
 
+from LinearMotor import *
 
 class Device:
     """Define the Device to optimize."""
-    x: float  # Type hinted -> will be automatically saved
-    y: float  # Type hinted -> will be automatically saved
+    tau_k: float  # Type hinted -> will be automatically saved
+    Br: float  # Type hinted -> will be automatically saved
+    hm: float
+    Lz: float
+
 
     def __init__(self):
-        self.x = 1
-        self.y = 1
+        self.tau_k = 1
+        self.Br = 1
+        self.hm = 1
+        self.Lz = 1
 
 
 class Characterization(InterfaceCharacterization):
@@ -60,19 +66,20 @@ class Characterization(InterfaceCharacterization):
 class MyObjective1(InterfaceObjCons):
     """First objective function (to be minimized)"""
     def compute(self, thedevice):
-        return (1 + (thedevice.y+3)*thedevice.x**2)**0.5
+        p1 = LinearMotor(thedevice.tau_k, thedevice.Br, thedevice.hm, thedevice.Lz)
+        return p1.get_F_active()
 
 
 class MyObjective2(InterfaceObjCons):
     """Second objective function (to be minimized)"""
     def compute(self, thedevice):
-        return 4 + 2*(thedevice.y+3)**0.5*(1+(thedevice.x-1)**2)**0.5
-
+        p1 = LinearMotor(thedevice.tau_k, thedevice.Br, thedevice.hm, thedevice.Lz)
+        return p1.get_F_ripple()
 
 class MyConstraint(InterfaceObjCons):
     """Constraints, that needs to be <= 0"""
     def compute(self, thedevice):
-        return thedevice.x - 0.55
+        return thedevice.tau_k*2 - 50e-3
 
 
 if __name__ == "__main__":  # This line is necessary to spawn new processes
@@ -85,12 +92,14 @@ if __name__ == "__main__":  # This line is necessary to spawn new processes
 
     """Variable to be optimized"""
     optimizationVariables = list()
-    optimizationVariables.append(Real_OptimizationVariable('x', 0, 2))  #
-    optimizationVariables.append(Real_OptimizationVariable('y', 1, 2))
+    optimizationVariables.append(Real_OptimizationVariable('tau_k', 0, 1))  #
+    optimizationVariables.append(Real_OptimizationVariable('Br', 1, 2))
+    optimizationVariables.append(Real_OptimizationVariable('hm', 0, 1))
+    optimizationVariables.append(Real_OptimizationVariable('Lz', 0, 1))
 
     """Objective and constraints"""
     listOfObjectives = [MyObjective1(), MyObjective2()]
-    listOfConstraints = [MyConstraint()]
+    listOfConstraints = []
 
     """Set the optimizer"""
     theOptiSettings = OptimizerSettings(theDevice, listOfObjectives, listOfConstraints, optimizationVariables,
@@ -135,7 +144,7 @@ if __name__ == "__main__":  # This line is necessary to spawn new processes
     # to retrieve the results from the automatically saved files.
     print("Best individuals :")
     for device in resultsOpti:
-        print("x : {} \t y : {}". format(device.x, device.y))
+        print("tau_k : {} \t Br : {} \t hm : {} \t Lz : {}". format(device.tau_k, device.Br, device.hm, device.Lz))
 
     if display_opti:
         start_qt_mainloop()  # To keep windows alive

@@ -1,0 +1,39 @@
+	\begin{tikzpicture}
+			\begin{groupplot}[default_axis_style, group style={group size=1 by 2,},]
+					\nextgroupplot[xlabel={ Step },ylabel={ Hypervolume },]
+							\addplot[default_trace_style, 			
+										color=RGB55_126_184,
+										only marks,
+										mark=*,
+										mark options={	
+											solid, 
+											line width=0.1pt, 
+											mark size=1pt, 
+											draw=RGB55_126_184!19!black,
+										}
+							] file {\relativepath source/g0t0.dat};
+					\nextgroupplot[xlabel={ Objective\_0 },ylabel={ Objective\_1 },]
+							\addplot[default_trace_style, 			
+										color=RGB88_137_176,
+										only marks,
+										mark=*,
+										mark options={	
+											solid, 
+											line width=0.1pt, 
+											mark size=1pt, 
+											draw=RGB88_137_176!19!black,
+										}
+							] file {\relativepath source/g1t0.dat};
+							\addplot[default_trace_style, 			
+										color=RGB233_72_73,
+										only marks,
+										mark=*,
+										mark options={	
+											solid, 
+											line width=0.1pt, 
+											mark size=1pt, 
+											draw=RGB233_72_73!19!black,
+										}
+							] file {\relativepath source/g1t1.dat};
+		\end{groupplot}
+	\end{tikzpicture}
