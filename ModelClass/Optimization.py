@@ -34,6 +34,7 @@ class Device:
     Br: float  # Type hinted -> will be automatically saved
     hm: float
     Lz: float
+    
 
 
     def __init__(self):
@@ -67,14 +68,14 @@ class MyObjective1(InterfaceObjCons):
     """First objective function (to be minimized)"""
     def compute(self, thedevice):
         p1 = LinearMotor(thedevice.tau_k, thedevice.Br, thedevice.hm, thedevice.Lz)
-        return p1.get_F_active()
+        return -p1.get_F_active()
 
 
 class MyObjective2(InterfaceObjCons):
     """Second objective function (to be minimized)"""
     def compute(self, thedevice):
         p1 = LinearMotor(thedevice.tau_k, thedevice.Br, thedevice.hm, thedevice.Lz)
-        return p1.get_F_ripple()
+        return p1.get_THD()
 
 class MyConstraint(InterfaceObjCons):
     """Constraints, that needs to be <= 0"""

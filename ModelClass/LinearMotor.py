@@ -7,8 +7,6 @@ class LinearMotor:
 
     n_harm = 100
 
-    ha = 0.25e-3
-
     # Permeability definition
     # Air : mu
     mu0 = 4*np.pi*10**(-7)
@@ -17,27 +15,31 @@ class LinearMotor:
     # Region2 : mu
     mu2 = 1*mu0
 
-    # Section du câble en mm^2
-    S = 10
     Nt = 10
 
     # Densité de courant en A/mm^2
     J = 5
-
-    # Courant de la machine
-    I = J * S /Nt
+    eta = 0.5
 
 
 
-    def __init__(self, tau_k, Br, hm, Lz):
+    def __init__(self, tau_k, Br, hm, ha, Lz, lp, lq):
         self.tau_k = tau_k
         self.Mp = Br/self.mu0
         self.hm = hm
+        self.ha = ha
         self.Lz = Lz
-        self.h = self.ha + hm
+        self.h = ha + hm
         self.e = 1/3 * tau_k
         self.y = self.h + 0.05e-3
         self.x = -self.tau_k
+        self.Sbob = (lp*1e3) * (lq*1e3)
+    
+    def constant(self):
+        # Courant de la machine
+        self.I = self.J * self.Sbob  * self.eta/self.Nt
+        print(self.Sbob)
+
 
     def systemResolution(self):
         b = np.zeros((8,self.n_harm))
@@ -242,7 +244,6 @@ class LinearMotor:
         Apc = A*np.exp(self.y*omega_n) + B*np.exp(-self.y*omega_n) + self.mu0*Mps/omega_n
 
         A_fond = Aps*np.sin(omega_n*self.x) + Apc*np.cos(omega_n*self.x)
-
         phi_fond = self.Nt*2*self.Lz*A_fond
 
         F_active = 3/2 * omega_n * phi_fond * self.I
@@ -251,11 +252,46 @@ class LinearMotor:
 
         return F_active
 
+    def get_THD(self):
+        self.systemResolution()
+        self.Region1()
+        self.Region2()
+        self.get_F_active()
+
+        phi_THD = 0
+
+        for i in range(3, self.n_harm+1):
+            omega_n = np.pi*i/self.tau_k
+
+            Mpc = 0
+            Mps = -2*self.Mp/(np.pi*i) * (np.cos(np.pi*i/(self.tau_k)*self.e/2) - np.cos(np.pi*i/(self.tau_k)*(self.e/2 - self.tau_k)))
+
+            A = self.b[4, i-1]/omega_n
+            B = self.b[5, i-1]/omega_n
+            C = self.b[6, i-1]/omega_n
+            D = self.b[7, i-1]/omega_n
+
+
+            Aps = C*np.exp(self.y*omega_n) + D*np.exp(-self.y*omega_n) - self.mu0*Mpc/omega_n
+            Apc = A*np.exp(self.y*omega_n) + B*np.exp(-self.y*omega_n) + self.mu0*Mps/omega_n
+
+            q = np.linspace(-self.tau_k, self.tau_k, 1000)
+            A_int = Aps*np.sin(omega_n*q) + Apc*np.cos(omega_n*q)
+            phi_int = self.Nt*2*self.Lz*A_int
+            phi_max = np.max(phi_int)
+            phi_THD += phi_max*phi_max
+
+        THD = np.sqrt(phi_THD)/self.F_active
+        self.THD = THD
+        return THD
+
+
     def get_F_ripple(self):
 
         self.systemResolution()
         self.Region1()
         self.Region2()
+        self.get_F_active()
         
         Aps = 0
         Apc = 0
@@ -265,7 +301,7 @@ class LinearMotor:
 
         F_ripple = 0
 
-        for i in range(2, self.n_harm+1):
+        for i in range(1, self.n_harm+1):
             omega_n = np.pi*i/self.tau_k
 
             Mpc = 0
@@ -292,15 +328,21 @@ class LinearMotor:
         self.F_ripple = F_ripple
         return F_ripple
 
+    def get_I(self):
+        return self.I*np.cos(self.w0 + self.tau_k/2), self.I*np.cos(self.w0 + self.tau_k/2 - 2*self.tau_k/3), self.I*np.cos(self.w0 + self.tau_k/2 - 4*self.tau_k/3)
+
     def myMotor(self):
+        self.constant()
         self.systemResolution()
         self.Region1()
         self.Region2()
         self.get_F_active()
+        self.get_THD()
         print(self.F_active)
+        print(self.THD)
 
 # tau_k, Br, hm, ha, Lz
-p1 = LinearMotor(100e-3, 1.21, 10e-3, 45e-3)
+p1 = LinearMotor(100e-3, 1.21, 20e-3, 5e-3, 45e-3, 0.5e-3, 10e-3)
 p1.myMotor()
 
 
