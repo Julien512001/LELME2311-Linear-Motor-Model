@@ -10,7 +10,7 @@ q_femm = tau_k/2
 
 
 # Problem dimensions in [mm]
-tau_k = 60e-3           # half period of the problem : 100 mm
+tau_k = 10e-3           # half period of the problem : 100 mm
 hm = 10e-3          # PM height (region 1) : 45mm
 ha = 0.25e-3          # air-gap height (region 2) : 15mm
 h = hm + ha         # Total height

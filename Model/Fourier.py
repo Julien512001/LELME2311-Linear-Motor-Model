@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from Constant import *
 
-
+q = np.linspace(-25e-3, 25e-3, 1000)
 f = np.zeros_like(q)
 
 
