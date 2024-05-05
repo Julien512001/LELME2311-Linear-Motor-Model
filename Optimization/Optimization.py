@@ -35,11 +35,9 @@ class Device:
     """Define the Device to optimize."""
     tau_k: float  # Type hinted -> will be automatically saved
     e: float
-    Br: float  # Type hinted -> will be automatically saved
     hm: float
     ha: float
     Lz: float
-    lp: float
     lq: float
     
 
@@ -47,11 +45,9 @@ class Device:
     def __init__(self):
         self.tau_k = 0
         self.e = 0
-        self.Br = 0
         self.hm = 0
         self.ha = 0
         self.Lz = 0
-        self.lp = 0
         self.lq = 0
 
 class Characterization(InterfaceCharacterization):
@@ -74,19 +70,22 @@ class Characterization(InterfaceCharacterization):
         time.sleep(self.time_evaluation)
 
 
+
+
 class MyObjective1(InterfaceObjCons):
     """First objective function (to be minimized)"""
     def compute(self, thedevice):
-        p1 = LinearMotor(thedevice.tau_k, thedevice.e, thedevice.Br, thedevice.hm, thedevice.ha, thedevice.Lz, thedevice.lp, thedevice.lq)
-        F_active = p1.get_F_active()
-        return -F_active
-
+        p2 = LinearMotor(thedevice.tau_k, thedevice.e, thedevice.hm, thedevice.ha, thedevice.Lz, thedevice.lq)
+        THD = p2.get_THD()
+        return THD
+    
 class MyObjective2(InterfaceObjCons):
     """Second objective function (to be minimized)"""
     def compute(self, thedevice):
-        p2 = LinearMotor(thedevice.tau_k, thedevice.e, thedevice.Br, thedevice.hm, thedevice.ha, thedevice.Lz, thedevice.lp, thedevice.lq)
-        THD = p2.get_THD()
-        return THD
+        p1 = LinearMotor(thedevice.tau_k, thedevice.e, thedevice.hm, thedevice.ha, thedevice.Lz, thedevice.lq)
+        F_active = p1.get_F_active()
+        return -F_active
+
 
 class MyConstraint(InterfaceObjCons):
     """Constraints, that needs to be <= 0"""
@@ -105,17 +104,15 @@ if __name__ == "__main__":  # This line is necessary to spawn new processes
     """Variable to be optimized"""
     optimizationVariables = list()
 
-    optimizationVariables.append(Real_OptimizationVariable('tau_k', 0, 25e-3))  
-    optimizationVariables.append(Real_OptimizationVariable('e', 0, 25e-3 / 2.0))
-    optimizationVariables.append(Real_OptimizationVariable('Br', 1, 2))
-    optimizationVariables.append(Real_OptimizationVariable('hm', 0, 10e-3))
-    optimizationVariables.append(Real_OptimizationVariable('ha', 0, 10e-3))
-    optimizationVariables.append(Real_OptimizationVariable('Lz', 0, 50e-3))
-    optimizationVariables.append(Real_OptimizationVariable('lp', 0, 5e-3))
-    optimizationVariables.append(Real_OptimizationVariable('lq', 0, 5e-3))
+    optimizationVariables.append(Real_OptimizationVariable('tau_k', 1e-3, 50e-3))  
+    optimizationVariables.append(Real_OptimizationVariable('e', 1e-3, 25e-3 / 2.0))
+    optimizationVariables.append(Real_OptimizationVariable('hm', 1e-3, 10e-3))
+    optimizationVariables.append(Real_OptimizationVariable('ha', 1e-3, 10e-3))
+    optimizationVariables.append(Real_OptimizationVariable('Lz', 1e-3, 50e-3))
+    optimizationVariables.append(Real_OptimizationVariable('lq', 1e-3, 5e-3))
 
     """Objective and constraints"""
-    listOfObjectives = [MyObjective2(), MyObjective1()]
+    listOfObjectives = [MyObjective1(), MyObjective2()]
     listOfConstraints = []
 
     """Set the optimizer"""
@@ -136,7 +133,7 @@ if __name__ == "__main__":  # This line is necessary to spawn new processes
     # theEvaluator = PermanentMultiprocessEvaluator(theOptiSettings, number_of_cores=2)  # Third evaluator -> Parallel run, initializes Charac() at startup.
 
     """Start the optimization"""
-    max_opti_time_sec = 100
+    max_opti_time_sec = 300
 
     display_opti = True
 
@@ -161,31 +158,30 @@ if __name__ == "__main__":  # This line is necessary to spawn new processes
     # to retrieve the results from the automatically saved files.
     print("Best individuals :")
     for device in resultsOpti:
-        print("tau_k : {} \t e : {} \t Br : {} \t hm : {} \t ha : {} \t Lz : {} \t lp : {} \t lq : {}". format(device.tau_k, device.e, device.Br, device.hm, device.ha, device.Lz, device.lp, device.lq))
-        p = LinearMotor(device.tau_k, device.e, device.Br, device.hm, device.ha, device.Lz, device.lp, device.lq)
+        print("tau_k : {} \t e : {} \t hm : {} \t ha : {} \t Lz : {} \t lq : {}". format(device.tau_k, device.e, device.hm, device.ha, device.Lz, device.lq))
+        p = LinearMotor(device.tau_k, device.e, device.hm, device.ha, device.Lz, device.lq)
         print("F_active = {}".format(p.get_F_active()))
         print("THD = {}".format(p.get_THD()))
             
 
     # Open a file named OptimalMachines.csv in write mode
     with open("OptimalMachines.csv", "w", newline='') as csvfile:
-        fieldnames = ['Machine', 'tau_k', 'e', 'Br', 'hm', 'ha', 'Lz', 'lp', 'lq', 'F_active', 'THD']
+        fieldnames = ['Machine', 'tau_k', 'e', 'hm', 'ha', 'Lz', 'lq', 'F_active', 'THD', 'mass']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
         writer.writeheader()
         for idx, device in enumerate(resultsOpti, start=1):
-            p = LinearMotor(device.tau_k, device.e, device.Br, device.hm, device.ha, device.Lz, device.lp, device.lq)
+            p = LinearMotor(device.tau_k, device.e, device.hm, device.ha, device.Lz, device.lq)
             writer.writerow({'Machine': idx,
                             'tau_k': device.tau_k,
                             'e': device.e,
-                            'Br': device.Br,
                             'hm': device.hm,
                             'ha': device.ha,
                             'Lz': device.Lz,
-                            'lp': device.lp,
                             'lq': device.lq,
                             'F_active': p.get_F_active(),
-                            'THD': p.get_THD()})
+                            'THD': p.get_THD(),
+                            'mass': p.get_mass()})
 
 
     if display_opti:

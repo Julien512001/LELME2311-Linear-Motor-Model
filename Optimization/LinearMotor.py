@@ -5,7 +5,9 @@ from scipy.linalg import solve
 
 class LinearMotor:
 
-    n_harm = 10
+    n_harm = 100
+
+    Br = 1.21
 
     # Permeability definition
     # Air : mu
@@ -17,24 +19,43 @@ class LinearMotor:
 
     Nt = 1
 
-    # Densité de courant en A/m^2
+    # air gap thickness
+    a = 0.5e-3
+
+    # Current density [A/m²]
     J = 5*1e6
     eta = 0.5
 
+    # density [kg/m²]
+    rho_cu = 8950
 
+    # Range of motion [m]
+    d_max = 50e-3
 
-    def __init__(self, tau_k, e, Br, hm, ha, Lz, lp, lq):
+    # Nominal voltage [V]
+    U_max = 600
+
+    # Payload [kg]
+    m_pay = 0.15
+
+    # Resistivity of the copper [Ohm.m]
+    rho_r = 17e-19
+
+    def __init__(self, tau_k, e, hm, ha, Lz, lq):
         self.tau_k = tau_k
         self.e = e
-        self.Mp = Br/self.mu0
+        self.Mp = self.Br/self.mu0
         self.hm = hm
         self.ha = ha
         self.Lz = Lz
         self.h = ha + hm
         self.y = self.h
         self.x = -self.tau_k
-        self.Sbob = lp*lq
-    
+        self.lp = 2*self.ha - 2*self.a
+        self.Sbob = self.lp*lq
+        self.R = (self.tau_k - self.e/2)/2
+        self.lq = lq
+
     def constant(self):
         # Courant de la machine
         self.I = self.J * self.Sbob  * self.eta/self.Nt
@@ -178,6 +199,27 @@ class LinearMotor:
         self.THD = THD
 
         return THD
+    
+    def get_mass(self):
+        return self.eta*(2*self.Sbob*self.Lz + 2*np.pi**2 * (self.lq/2)**2*self.R)*self.rho_cu
+    
+    def get_vmax(self):
+        F = self.get_F_active()
+        mass = self.get_mass() + self.m_pay
+        return np.sqrt(F*self.d_max/mass)
+    
+    def get_Nspire(self):
+        v_max = self.get_vmax()
+        kphi = self.get_F_active()/self.I
+
+        return np.sqrt((self.U_max - kphi * v_max)*self.Sbob * self.eta/(self.rho_r*(2*self.Lz + 4*np.pi*self.R)))
+
+    def get_time(self):
+        F = self.get_F_active()
+        mass = self.get_mass() + self.m_pay
+        return 4*np.sqrt(mass*self.d_max/F)
+
+
 
     def myMotor(self):
         self.get_F_active()
@@ -185,9 +227,17 @@ class LinearMotor:
         print("F_active = {}".format(self.F_active))
         print("THD = {}".format(self.THD))
 
-# tau_k, e, Br, hm, ha, Lz, lp, lq
 
-p1 = LinearMotor(20e-3, 5e-3, 1.21, 7e-3, 3e-3, 3e-3, 1e-3, 3e-3)
+
+# tau_k, e, hm, ha, Lz, lq
+
+# lq < e/2
+p1 = LinearMotor(100e-3, 10e-3, 7e-3, 3e-3, 30e-3, 2e-3)
+
 p1.myMotor()
-
-
+mass = p1.get_mass()
+print(mass*1000)
+vmax = p1.get_vmax()
+print(vmax)
+t = p1.get_time()
+print(t)
