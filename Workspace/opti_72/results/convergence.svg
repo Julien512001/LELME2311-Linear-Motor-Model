@@ -1,0 +1,1166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny" viewBox ="0 0 640.000000 480.000000">
+<title>pyqtgraph SVG export</title>
+<desc>Generated with Qt and pyqtgraph</desc>
+<style>
+    image {
+        image-rendering: crisp-edges;
+        image-rendering: -moz-crisp-edges;
+        image-rendering: pixelated;
+    }
+</style>
+<rect width="100%" height="100%" style="fill:rgb(255, 255, 255)" />
+<defs>
+</defs>
+<g id="GraphicsScene_1">
+    <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="myGraphicsLayout_1">
+        <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="PlotItem_1">
+            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="ViewBox_1">
+                <g fill="none" stroke="none" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                    <path fill-rule="evenodd" d="M66.6,10.0 L630.0,10.0 L630.0,199.9 L66.6,199.9 L66.6,10.0 "/>
+                </g>
+                <clipPath id="ViewBox_1_clip">
+                    <path vector-effect="none" fill-rule="evenodd" d="M66.6,10.0 L630.0,10.0 L630.0,199.9 L66.6,199.9 L66.6,10.0 " stroke-width="1.0"/>
+                </clipPath>
+                <g clip-path="url(#ViewBox_1_clip)">
+                    <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="ChildGroup_1">
+                        <g id="PlotDataItem_1">
+                            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="PlotCurveItem_1">
+                                <g fill="none" stroke="#377eb8" stroke-opacity="1" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <polyline fill="none" points="126.12,179.83818897799998 147.28,175.12961212"/>
+                                    <polyline fill="none" points="147.28,175.12961212 168.44,120.82077235999998"/>
+                                    <polyline fill="none" points="168.44,120.82077235999998 189.60000000000002,113.64278197999997"/>
+                                    <polyline fill="none" points="189.60000000000002,113.64278197999997 210.76,98.98250581999997"/>
+                                    <polyline fill="none" points="210.76,98.98250581999997 231.92000000000002,93.33613561999996"/>
+                                    <polyline fill="none" points="231.92000000000002,93.33613561999996 253.08,78.89562835999996"/>
+                                    <polyline fill="none" points="253.08,78.89562835999996 274.24,76.23473414"/>
+                                    <polyline fill="none" points="274.24,76.23473414 295.4,75.03333081999997"/>
+                                    <polyline fill="none" points="295.4,75.03333081999997 316.56,66.99655119999997"/>
+                                    <polyline fill="none" points="316.56,66.99655119999997 337.72,62.222494479999966"/>
+                                    <polyline fill="none" points="337.72,62.222494479999966 358.88,59.60217297999995"/>
+                                    <polyline fill="none" points="358.88,59.60217297999995 380.04,50.15211027999996"/>
+                                    <polyline fill="none" points="380.04,50.15211027999996 401.2,47.925118759999975"/>
+                                    <polyline fill="none" points="401.2,47.925118759999975 422.36,43.722461179999954"/>
+                                    <polyline fill="none" points="422.36,43.722461179999954 443.52,42.75547801999997"/>
+                                    <polyline fill="none" points="443.52,42.75547801999997 464.68,40.048375979999975"/>
+                                    <polyline fill="none" points="464.68,40.048375979999975 485.84000000000003,38.19668211999996"/>
+                                    <polyline fill="none" points="485.84000000000003,38.19668211999996 507.0,37.82025743999995"/>
+                                    <polyline fill="none" points="507.0,37.82025743999995 528.1600000000001,32.14571173999997"/>
+                                    <polyline fill="none" points="528.1600000000001,32.14571173999997 549.3199999999999,31.307208859999974"/>
+                                    <polyline fill="none" points="549.3199999999999,31.307208859999974 570.48,30.06297877999998"/>
+                                </g>
+                            </g>
+                            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="ScatterPlotItem_1">
+                                <g fill="#377eb8" fill-opacity="1" stroke="#1f4666" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M130.12,179.838 C130.12,182.047136 128.329136,183.838 126.12,183.838 C123.910864,183.838 122.12,182.047136 122.12,179.838 C122.12,177.628864 123.910864,175.838 126.12,175.838 C128.329136,175.838 130.12,177.628864 130.12,179.838 "/>
+                                </g>
+                                <g fill="#377eb8" fill-opacity="1" stroke="#1f4666" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M151.28,175.13 C151.28,177.339136 149.489136,179.13 147.28,179.13 C145.070864,179.13 143.28,177.339136 143.28,175.13 C143.28,172.920864 145.070864,171.13 147.28,171.13 C149.489136,171.13 151.28,172.920864 151.28,175.13 "/>
+                                </g>
+                                <g fill="#377eb8" fill-opacity="1" stroke="#1f4666" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M172.44,120.821 C172.44,123.030136 170.649136,124.821 168.44,124.821 C166.230864,124.821 164.44,123.030136 164.44,120.821 C164.44,118.611864 166.230864,116.821 168.44,116.821 C170.649136,116.821 172.44,118.611864 172.44,120.821 "/>
+                                </g>
+                                <g fill="#377eb8" fill-opacity="1" stroke="#1f4666" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M193.6,113.643 C193.6,115.852136 191.809136,117.643 189.6,117.643 C187.390864,117.643 185.6,115.852136 185.6,113.643 C185.6,111.433864 187.390864,109.643 189.6,109.643 C191.809136,109.643 193.6,111.433864 193.6,113.643 "/>
+                                </g>
+                                <g fill="#377eb8" fill-opacity="1" stroke="#1f4666" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M214.76,98.9822 C214.76,101.191336 212.969136,102.9822 210.76,102.9822 C208.550864,102.9822 206.76,101.191336 206.76,98.9822 C206.76,96.773064 208.550864,94.9822 210.76,94.9822 C212.969136,94.9822 214.76,96.773064 214.76,98.9822 "/>
+                                </g>
+                                <g fill="#377eb8" fill-opacity="1" stroke="#1f4666" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M235.92,93.3361 C235.92,95.545236 234.129136,97.3361 231.92,97.3361 C229.710864,97.3361 227.92,95.545236 227.92,93.3361 C227.92,91.126964 229.710864,89.3361 231.92,89.3361 C234.129136,89.3361 235.92,91.126964 235.92,93.3361 "/>
+                                </g>
+                                <g fill="#377eb8" fill-opacity="1" stroke="#1f4666" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M257.08000000000004,78.8953 C257.08000000000004,81.104436 255.289136,82.8953 253.08,82.8953 C250.870864,82.8953 249.08,81.104436 249.08,78.8953 C249.08,76.686164 250.870864,74.8953 253.08,74.8953 C255.289136,74.8953 257.08000000000004,76.686164 257.08000000000004,78.8953 "/>
+                                </g>
+                                <g fill="#377eb8" fill-opacity="1" stroke="#1f4666" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M278.24,76.2344 C278.24,78.443536 276.449136,80.2344 274.24,80.2344 C272.030864,80.2344 270.24,78.443536 270.24,76.2344 C270.24,74.02526399999999 272.030864,72.2344 274.24,72.2344 C276.449136,72.2344 278.24,74.02526399999999 278.24,76.2344 "/>
+                                </g>
+                                <g fill="#377eb8" fill-opacity="1" stroke="#1f4666" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M299.4,75.0329 C299.4,77.242036 297.609136,79.0329 295.4,79.0329 C293.190864,79.0329 291.4,77.242036 291.4,75.0329 C291.4,72.823764 293.190864,71.0329 295.4,71.0329 C297.609136,71.0329 299.4,72.823764 299.4,75.0329 "/>
+                                </g>
+                                <g fill="#377eb8" fill-opacity="1" stroke="#1f4666" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M320.56,66.9966 C320.56,69.205736 318.769136,70.9966 316.56,70.9966 C314.350864,70.9966 312.56,69.205736 312.56,66.9966 C312.56,64.787464 314.350864,62.9966 316.56,62.9966 C318.769136,62.9966 320.56,64.787464 320.56,66.9966 "/>
+                                </g>
+                                <g fill="#377eb8" fill-opacity="1" stroke="#1f4666" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M341.72,62.2219 C341.72,64.43103599999999 339.929136,66.2219 337.72,66.2219 C335.510864,66.2219 333.72,64.43103599999999 333.72,62.2219 C333.72,60.012764 335.510864,58.2219 337.72,58.2219 C339.929136,58.2219 341.72,60.012764 341.72,62.2219 "/>
+                                </g>
+                                <g fill="#377eb8" fill-opacity="1" stroke="#1f4666" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M362.88,59.6018 C362.88,61.810936 361.089136,63.6018 358.88,63.6018 C356.670864,63.6018 354.88,61.810936 354.88,59.6018 C354.88,57.392663999999996 356.670864,55.6018 358.88,55.6018 C361.089136,55.6018 362.88,57.392663999999996 362.88,59.6018 "/>
+                                </g>
+                                <g fill="#377eb8" fill-opacity="1" stroke="#1f4666" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M384.04,50.1518 C384.04,52.360936 382.249136,54.1518 380.04,54.1518 C377.830864,54.1518 376.04,52.360936 376.04,50.1518 C376.04,47.942664 377.830864,46.1518 380.04,46.1518 C382.249136,46.1518 384.04,47.942664 384.04,50.1518 "/>
+                                </g>
+                                <g fill="#377eb8" fill-opacity="1" stroke="#1f4666" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M405.2,47.9243 C405.2,50.133436 403.409136,51.9243 401.2,51.9243 C398.990864,51.9243 397.2,50.133436 397.2,47.9243 C397.2,45.715164 398.990864,43.9243 401.2,43.9243 C403.409136,43.9243 405.2,45.715164 405.2,47.9243 "/>
+                                </g>
+                                <g fill="#377eb8" fill-opacity="1" stroke="#1f4666" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M426.36,43.7223 C426.36,45.931436 424.569136,47.7223 422.36,47.7223 C420.150864,47.7223 418.36,45.931436 418.36,43.7223 C418.36,41.513163999999996 420.150864,39.7223 422.36,39.7223 C424.569136,39.7223 426.36,41.513163999999996 426.36,43.7223 "/>
+                                </g>
+                                <g fill="#377eb8" fill-opacity="1" stroke="#1f4666" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M447.52,42.7547 C447.52,44.963836 445.729136,46.7547 443.52,46.7547 C441.310864,46.7547 439.52,44.963836 439.52,42.7547 C439.52,40.545564 441.310864,38.7547 443.52,38.7547 C445.729136,38.7547 447.52,40.545564 447.52,42.7547 "/>
+                                </g>
+                                <g fill="#377eb8" fill-opacity="1" stroke="#1f4666" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M468.68,40.0476 C468.68,42.256736000000004 466.889136,44.0476 464.68,44.0476 C462.470864,44.0476 460.68,42.256736000000004 460.68,40.0476 C460.68,37.838464 462.470864,36.0476 464.68,36.0476 C466.889136,36.0476 468.68,37.838464 468.68,40.0476 "/>
+                                </g>
+                                <g fill="#377eb8" fill-opacity="1" stroke="#1f4666" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M489.84,38.1955 C489.84,40.404636 488.049136,42.1955 485.84,42.1955 C483.630864,42.1955 481.84,40.404636 481.84,38.1955 C481.84,35.986364 483.630864,34.1955 485.84,34.1955 C488.049136,34.1955 489.84,35.986364 489.84,38.1955 "/>
+                                </g>
+                                <g fill="#377eb8" fill-opacity="1" stroke="#1f4666" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M511.0,37.8199 C511.0,40.029036 509.209136,41.8199 507.0,41.8199 C504.790864,41.8199 503.0,40.029036 503.0,37.8199 C503.0,35.610763999999996 504.790864,33.8199 507.0,33.8199 C509.209136,33.8199 511.0,35.610763999999996 511.0,37.8199 "/>
+                                </g>
+                                <g fill="#377eb8" fill-opacity="1" stroke="#1f4666" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M532.16,32.1454 C532.16,34.354536 530.3691359999999,36.1454 528.16,36.1454 C525.950864,36.1454 524.16,34.354536 524.16,32.1454 C524.16,29.936264 525.950864,28.145400000000002 528.16,28.145400000000002 C530.3691359999999,28.145400000000002 532.16,29.936264 532.16,32.1454 "/>
+                                </g>
+                                <g fill="#377eb8" fill-opacity="1" stroke="#1f4666" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M553.32,31.3061 C553.32,33.515236 551.529136,35.3061 549.32,35.3061 C547.1108640000001,35.3061 545.32,33.515236 545.32,31.3061 C545.32,29.096964 547.1108640000001,27.3061 549.32,27.3061 C551.529136,27.3061 553.32,29.096964 553.32,31.3061 "/>
+                                </g>
+                                <g fill="#377eb8" fill-opacity="1" stroke="#1f4666" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M574.48,30.0619 C574.48,32.271036 572.689136,34.0619 570.48,34.0619 C568.2708640000001,34.0619 566.48,32.271036 566.48,30.0619 C566.48,27.852764 568.2708640000001,26.0619 570.48,26.0619 C572.689136,26.0619 574.48,27.852764 574.48,30.0619 "/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="QGraphicsRectItem_1">
+                        
+
+
+                        <g fill="none" stroke="none" transform="matrix(1,0,0,1,66.6,10)" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                            
+
+                            <rect x="0" y="0" width="563.4" height="189.9"/>
+                            
+
+                        </g>
+                        
+
+                    </g>
+                </g>
+            </g>
+            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="myAxis_1">
+                <g fill="none" stroke="#323232" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                    <polyline fill="none" points="66.6,199.9 630.0,199.9"/>
+                </g>
+                <g fill="none" stroke="#323232" stroke-opacity="0.501961" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                    <polyline fill="none" points="89.7894,10.0 89.7894,199.9"/>
+                    <polyline fill="none" points="582.191,10.0 582.191,199.9"/>
+                </g>
+                <g fill="none" stroke="#323232" stroke-opacity="0.25098" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                    <polyline fill="none" points="335.99,10.0 335.99,199.9"/>
+                </g>
+                <g fill="none" stroke="#323232" stroke-opacity="0.164706" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                    <polyline fill="none" points="139.02949999999998,10.0 139.02949999999998,199.9"/>
+                    <polyline fill="none" points="188.26999999999998,10.0 188.26999999999998,199.9"/>
+                    <polyline fill="none" points="237.51,10.0 237.51,199.9"/>
+                    <polyline fill="none" points="286.75,10.0 286.75,199.9"/>
+                    <polyline fill="none" points="385.23,10.0 385.23,199.9"/>
+                    <polyline fill="none" points="434.47,10.0 434.47,199.9"/>
+                    <polyline fill="none" points="483.71000000000004,10.0 483.71000000000004,199.9"/>
+                    <polyline fill="none" points="532.95,10.0 532.95,199.9"/>
+                </g>
+                <g fill="none" stroke="#323232" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,66.6,199.9)" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="18.9531" y="16" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">0</text>
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="507.125" y="16" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">20</text>
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="260.922" y="16" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">10</text>
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="68.1875" y="16" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">2</text>
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="117.438" y="16" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">4</text>
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="166.672" y="16" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">6</text>
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="215.922" y="16" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">8</text>
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="310.172" y="16" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">12</text>
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="359.406" y="16" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">14</text>
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="408.656" y="16" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">16</text>
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="457.891" y="16" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">18</text>
+                </g>
+                <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="QGraphicsTextItem_1">
+                    
+
+
+                    
+
+
+                    
+
+
+                    <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,322.6,218.9)" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                        <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="19" font-family="39" font-size="16" font-weight="400" font-style="normal">Step </text>
+                    </g>
+                    
+
+
+                    
+
+                </g>
+            </g>
+            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="myAxis_2">
+                <g fill="none" stroke="#323232" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                    <polyline fill="none" points="66.6,10.0 66.6,199.9"/>
+                </g>
+                <g fill="none" stroke="#323232" stroke-opacity="0.501961" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                    <polyline fill="none" points="630.0,37.0356 66.6,37.0356"/>
+                </g>
+                <g fill="none" stroke="#323232" stroke-opacity="0.25098" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                    <polyline fill="none" points="630.0,159.988 66.6,159.988"/>
+                </g>
+                <g fill="none" stroke="#323232" stroke-opacity="0.164706" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                    <polyline fill="none" points="630.0,184.579 66.6,184.579"/>
+                    <polyline fill="none" points="630.0,135.398 66.6,135.398"/>
+                    <polyline fill="none" points="630.0,110.807 66.6,110.807"/>
+                    <polyline fill="none" points="630.0,86.2167 66.6,86.2167"/>
+                    <polyline fill="none" points="630.0,61.6261 66.6,61.6261"/>
+                    <polyline fill="none" points="630.0,12.44512 66.6,12.44512"/>
+                </g>
+                <g fill="none" stroke="#323232" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,10,10)" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="26.2344" y="32.5313" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">200</text>
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="26.2344" y="155.484" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">100</text>
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="34.6875" y="180.078" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">80</text>
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="26.2344" y="130.891" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">120</text>
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="26.2344" y="106.297" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">140</text>
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="26.2344" y="81.7031" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">160</text>
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="26.2344" y="57.125" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">180</text>
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="26.2344" y="7.95313" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">220</text>
+                </g>
+                <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="QGraphicsTextItem_2">
+                    
+
+
+                    
+
+
+                    
+
+
+                    <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0,-1,1,0,0,199)" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                        <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="19" font-family="39" font-size="16" font-weight="400" font-style="normal">Hypervolume (x1e-06)</text>
+                    </g>
+                    
+
+
+                    
+
+                </g>
+            </g>
+        </g>
+        <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="PlotItem_2">
+            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="ViewBox_2">
+                <g fill="none" stroke="none" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                    <path fill-rule="evenodd" d="M66.6,238.5 L630.0,238.5 L630.0,428.4 L66.6,428.4 L66.6,238.5 "/>
+                </g>
+                <clipPath id="ViewBox_2_clip">
+                    <path vector-effect="none" fill-rule="evenodd" d="M66.6,238.5 L630.0,238.5 L630.0,428.4 L66.6,428.4 L66.6,238.5 " stroke-width="1.0"/>
+                </clipPath>
+                <g clip-path="url(#ViewBox_2_clip)">
+                    <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="ChildGroup_2">
+                        <g id="PlotDataItem_2">
+                            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="PlotCurveItem_2">
+                                <g fill="none" stroke="#5e4fa2" stroke-opacity="1" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <polyline fill="none" points="316.0193890600001,327.647424008 323.78975612,360.220402838"/>
+                                    <polyline fill="none" points="323.78975612,360.220402838 374.3240505800002,398.45343233"/>
+                                </g>
+                            </g>
+                            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="ScatterPlotItem_2">
+                                <g fill="#5e4fa2" fill-opacity="1" stroke="#342c5a" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M320.018,327.648 C320.018,329.857136 318.227136,331.648 316.018,331.648 C313.80886399999997,331.648 312.018,329.857136 312.018,327.648 C312.018,325.438864 313.80886399999997,323.648 316.018,323.648 C318.227136,323.648 320.018,325.438864 320.018,327.648 "/>
+                                </g>
+                                <g fill="#5e4fa2" fill-opacity="1" stroke="#342c5a" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M327.787,360.221 C327.787,362.430136 325.996136,364.221 323.787,364.221 C321.577864,364.221 319.787,362.430136 319.787,360.221 C319.787,358.011864 321.577864,356.221 323.787,356.221 C325.996136,356.221 327.787,358.011864 327.787,360.221 "/>
+                                </g>
+                                <g fill="#5e4fa2" fill-opacity="1" stroke="#342c5a" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M378.32,398.454 C378.32,400.663136 376.529136,402.454 374.32,402.454 C372.110864,402.454 370.32,400.663136 370.32,398.454 C370.32,396.244864 372.110864,394.454 374.32,394.454 C376.529136,394.454 378.32,396.244864 378.32,398.454 "/>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="PlotDataItem_3">
+                            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="PlotCurveItem_3">
+                                <g fill="none" stroke="#3288bd" stroke-opacity="1" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <polyline fill="none" points="205.87226259999989,258.56208331999994 215.20332671999995,387.68424172999994"/>
+                                    <polyline fill="none" points="215.20332671999995,387.68424172999994 279.0428741000003,395.075008358"/>
+                                    <polyline fill="none" points="279.0428741000003,395.075008358 374.3240505800002,398.45343233"/>
+                                </g>
+                            </g>
+                            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="ScatterPlotItem_3">
+                                <g fill="#3288bd" fill-opacity="1" stroke="#1c4c69" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M209.869,258.562 C209.869,260.771136 208.078136,262.562 205.869,262.562 C203.659864,262.562 201.869,260.771136 201.869,258.562 C201.869,256.352864 203.659864,254.562 205.869,254.562 C208.078136,254.562 209.869,256.352864 209.869,258.562 "/>
+                                </g>
+                                <g fill="#3288bd" fill-opacity="1" stroke="#1c4c69" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M219.199,387.685 C219.199,389.894136 217.408136,391.685 215.199,391.685 C212.989864,391.685 211.199,389.894136 211.199,387.685 C211.199,385.475864 212.989864,383.685 215.199,383.685 C217.408136,383.685 219.199,385.475864 219.199,387.685 "/>
+                                </g>
+                                <g fill="#3288bd" fill-opacity="1" stroke="#1c4c69" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M283.041,395.075 C283.041,397.284136 281.250136,399.075 279.041,399.075 C276.831864,399.075 275.041,397.284136 275.041,395.075 C275.041,392.865864 276.831864,391.075 279.041,391.075 C281.250136,391.075 283.041,392.865864 283.041,395.075 "/>
+                                </g>
+                                <g fill="#3288bd" fill-opacity="1" stroke="#1c4c69" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M378.32,398.454 C378.32,400.663136 376.529136,402.454 374.32,402.454 C372.110864,402.454 370.32,400.663136 370.32,398.454 C370.32,396.244864 372.110864,394.454 374.32,394.454 C376.529136,394.454 378.32,396.244864 378.32,398.454 "/>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="PlotDataItem_4">
+                            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="PlotCurveItem_4">
+                                <g fill="none" stroke="#66c2a5" stroke-opacity="1" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <polyline fill="none" points="194.7114157200001,381.041857394 215.20332671999995,387.68424172999994"/>
+                                    <polyline fill="none" points="215.20332671999995,387.68424172999994 275.47852351999995,395.31813430399995"/>
+                                    <polyline fill="none" points="275.47852351999995,395.31813430399995 316.0193890600001,396.68754720199996"/>
+                                    <polyline fill="none" points="316.0193890600001,396.68754720199996 328.35593345999996,401.418564038"/>
+                                    <polyline fill="none" points="328.35593345999996,401.418564038 357.51240400000006,403.483933148"/>
+                                </g>
+                            </g>
+                            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="ScatterPlotItem_4">
+                                <g fill="#66c2a5" fill-opacity="1" stroke="#396c5c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M198.707,381.042 C198.707,383.251136 196.916136,385.042 194.707,385.042 C192.497864,385.042 190.707,383.251136 190.707,381.042 C190.707,378.832864 192.497864,377.042 194.707,377.042 C196.916136,377.042 198.707,378.832864 198.707,381.042 "/>
+                                </g>
+                                <g fill="#66c2a5" fill-opacity="1" stroke="#396c5c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M219.199,387.685 C219.199,389.894136 217.408136,391.685 215.199,391.685 C212.989864,391.685 211.199,389.894136 211.199,387.685 C211.199,385.475864 212.989864,383.685 215.199,383.685 C217.408136,383.685 219.199,385.475864 219.199,387.685 "/>
+                                </g>
+                                <g fill="#66c2a5" fill-opacity="1" stroke="#396c5c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M279.474,395.319 C279.474,397.528136 277.683136,399.319 275.474,399.319 C273.264864,399.319 271.474,397.528136 271.474,395.319 C271.474,393.109864 273.264864,391.319 275.474,391.319 C277.683136,391.319 279.474,393.109864 279.474,395.319 "/>
+                                </g>
+                                <g fill="#66c2a5" fill-opacity="1" stroke="#396c5c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M320.018,396.688 C320.018,398.897136 318.227136,400.688 316.018,400.688 C313.80886399999997,400.688 312.018,398.897136 312.018,396.688 C312.018,394.478864 313.80886399999997,392.688 316.018,392.688 C318.227136,392.688 320.018,394.478864 320.018,396.688 "/>
+                                </g>
+                                <g fill="#66c2a5" fill-opacity="1" stroke="#396c5c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M332.355,401.419 C332.355,403.628136 330.564136,405.419 328.355,405.419 C326.145864,405.419 324.355,403.628136 324.355,401.419 C324.355,399.209864 326.145864,397.419 328.355,397.419 C330.564136,397.419 332.355,399.209864 332.355,401.419 "/>
+                                </g>
+                                <g fill="#66c2a5" fill-opacity="1" stroke="#396c5c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M361.508,403.484 C361.508,405.693136 359.717136,407.484 357.508,407.484 C355.298864,407.484 353.508,405.693136 353.508,403.484 C353.508,401.274864 355.298864,399.484 357.508,399.484 C359.717136,399.484 361.508,401.274864 361.508,403.484 "/>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="PlotDataItem_5">
+                            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="PlotCurveItem_5">
+                                <g fill="none" stroke="#abdda4" stroke-opacity="1" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <polyline fill="none" points="191.9294835600001,395.196680552 200.37463476000016,397.535539046"/>
+                                    <polyline fill="none" points="200.37463476000016,397.535539046 253.71156027999996,399.94757560999994"/>
+                                    <polyline fill="none" points="253.71156027999996,399.94757560999994 264.6033214600002,401.046775754"/>
+                                    <polyline fill="none" points="264.6033214600002,401.046775754 279.48169078000024,401.61057455599996"/>
+                                    <polyline fill="none" points="279.48169078000024,401.61057455599996 352.71853876,404.445077948"/>
+                                </g>
+                            </g>
+                            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="ScatterPlotItem_5">
+                                <g fill="#abdda4" fill-opacity="1" stroke="#5f7b5b" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M195.928,395.197 C195.928,397.406136 194.137136,399.197 191.928,399.197 C189.718864,399.197 187.928,397.406136 187.928,395.197 C187.928,392.987864 189.718864,391.197 191.928,391.197 C194.137136,391.197 195.928,392.987864 195.928,395.197 "/>
+                                </g>
+                                <g fill="#abdda4" fill-opacity="1" stroke="#5f7b5b" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M204.37,397.536 C204.37,399.745136 202.579136,401.536 200.37,401.536 C198.160864,401.536 196.37,399.745136 196.37,397.536 C196.37,395.326864 198.160864,393.536 200.37,393.536 C202.579136,393.536 204.37,395.326864 204.37,397.536 "/>
+                                </g>
+                                <g fill="#abdda4" fill-opacity="1" stroke="#5f7b5b" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M257.71000000000004,399.948 C257.71000000000004,402.157136 255.919136,403.948 253.71,403.948 C251.500864,403.948 249.71,402.157136 249.71,399.948 C249.71,397.738864 251.500864,395.948 253.71,395.948 C255.919136,395.948 257.71000000000004,397.738864 257.71000000000004,399.948 "/>
+                                </g>
+                                <g fill="#abdda4" fill-opacity="1" stroke="#5f7b5b" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M268.598,401.047 C268.598,403.256136 266.807136,405.047 264.598,405.047 C262.388864,405.047 260.598,403.256136 260.598,401.047 C260.598,398.837864 262.388864,397.047 264.598,397.047 C266.807136,397.047 268.598,398.837864 268.598,401.047 "/>
+                                </g>
+                                <g fill="#abdda4" fill-opacity="1" stroke="#5f7b5b" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M283.48,401.611 C283.48,403.820136 281.689136,405.611 279.48,405.611 C277.270864,405.611 275.48,403.820136 275.48,401.611 C275.48,399.401864 277.270864,397.611 279.48,397.611 C281.689136,397.611 283.48,399.401864 283.48,401.611 "/>
+                                </g>
+                                <g fill="#abdda4" fill-opacity="1" stroke="#5f7b5b" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M356.714,404.446 C356.714,406.655136 354.923136,408.446 352.714,408.446 C350.504864,408.446 348.714,406.655136 348.714,404.446 C348.714,402.236864 350.504864,400.446 352.714,400.446 C354.923136,400.446 356.714,402.236864 356.714,404.446 "/>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="PlotDataItem_6">
+                            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="PlotCurveItem_6">
+                                <g fill="none" stroke="#e6f598" stroke-opacity="1" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <polyline fill="none" points="189.52427138000007,395.698004942 194.7114157200001,396.2220473"/>
+                                    <polyline fill="none" points="194.7114157200001,396.2220473 200.37463476000016,397.535539046"/>
+                                    <polyline fill="none" points="200.37463476000016,397.535539046 228.57481612000015,399.025968812"/>
+                                    <polyline fill="none" points="228.57481612000015,399.025968812 238.3943742800002,399.64241213599996"/>
+                                    <polyline fill="none" points="238.3943742800002,399.64241213599996 244.31011990000025,401.03476144399997"/>
+                                    <polyline fill="none" points="244.31011990000025,401.03476144399997 264.08584896,401.055294992"/>
+                                    <polyline fill="none" points="264.08584896,401.055294992 278.76550883999994,401.266091522"/>
+                                    <polyline fill="none" points="278.76550883999994,401.266091522 279.48169078000024,401.61057455599996"/>
+                                    <polyline fill="none" points="279.48169078000024,401.61057455599996 312.6578877000002,401.79013388"/>
+                                    <polyline fill="none" points="312.6578877000002,401.79013388 347.77150166000024,402.24755142799995"/>
+                                    <polyline fill="none" points="347.77150166000024,402.24755142799995 351.6173572800003,404.116104296"/>
+                                    <polyline fill="none" points="351.6173572800003,404.116104296 352.71853876,404.445077948"/>
+                                    <polyline fill="none" points="352.71853876,404.445077948 449.4196597800001,404.48024711"/>
+                                    <polyline fill="none" points="449.4196597800001,404.48024711 465.5358233200002,405.76250165"/>
+                                </g>
+                            </g>
+                            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="ScatterPlotItem_6">
+                                <g fill="#e6f598" fill-opacity="1" stroke="#808854" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M193.522,395.698 C193.522,397.907136 191.731136,399.698 189.522,399.698 C187.312864,399.698 185.522,397.907136 185.522,395.698 C185.522,393.488864 187.312864,391.698 189.522,391.698 C191.731136,391.698 193.522,393.488864 193.522,395.698 "/>
+                                </g>
+                                <g fill="#e6f598" fill-opacity="1" stroke="#808854" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M198.707,396.223 C198.707,398.432136 196.916136,400.223 194.707,400.223 C192.497864,400.223 190.707,398.432136 190.707,396.223 C190.707,394.013864 192.497864,392.223 194.707,392.223 C196.916136,392.223 198.707,394.013864 198.707,396.223 "/>
+                                </g>
+                                <g fill="#e6f598" fill-opacity="1" stroke="#808854" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M204.37,397.536 C204.37,399.745136 202.579136,401.536 200.37,401.536 C198.160864,401.536 196.37,399.745136 196.37,397.536 C196.37,395.326864 198.160864,393.536 200.37,393.536 C202.579136,393.536 204.37,395.326864 204.37,397.536 "/>
+                                </g>
+                                <g fill="#e6f598" fill-opacity="1" stroke="#808854" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M232.573,399.026 C232.573,401.235136 230.782136,403.026 228.573,403.026 C226.363864,403.026 224.573,401.235136 224.573,399.026 C224.573,396.816864 226.363864,395.026 228.573,395.026 C230.782136,395.026 232.573,396.816864 232.573,399.026 "/>
+                                </g>
+                                <g fill="#e6f598" fill-opacity="1" stroke="#808854" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M242.39,399.643 C242.39,401.852136 240.599136,403.643 238.39,403.643 C236.18086399999999,403.643 234.39,401.852136 234.39,399.643 C234.39,397.43386399999997 236.18086399999999,395.643 238.39,395.643 C240.599136,395.643 242.39,397.43386399999997 242.39,399.643 "/>
+                                </g>
+                                <g fill="#e6f598" fill-opacity="1" stroke="#808854" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M248.306,401.035 C248.306,403.244136 246.515136,405.035 244.306,405.035 C242.096864,405.035 240.306,403.244136 240.306,401.035 C240.306,398.825864 242.096864,397.035 244.306,397.035 C246.515136,397.035 248.306,398.825864 248.306,401.035 "/>
+                                </g>
+                                <g fill="#e6f598" fill-opacity="1" stroke="#808854" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M268.084,401.056 C268.084,403.265136 266.293136,405.056 264.084,405.056 C261.874864,405.056 260.084,403.265136 260.084,401.056 C260.084,398.846864 261.874864,397.056 264.084,397.056 C266.293136,397.056 268.084,398.846864 268.084,401.056 "/>
+                                </g>
+                                <g fill="#e6f598" fill-opacity="1" stroke="#808854" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M282.763,401.267 C282.763,403.476136 280.972136,405.267 278.763,405.267 C276.553864,405.267 274.763,403.476136 274.763,401.267 C274.763,399.057864 276.553864,397.267 278.763,397.267 C280.972136,397.267 282.763,399.057864 282.763,401.267 "/>
+                                </g>
+                                <g fill="#e6f598" fill-opacity="1" stroke="#808854" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M283.48,401.611 C283.48,403.820136 281.689136,405.611 279.48,405.611 C277.270864,405.611 275.48,403.820136 275.48,401.611 C275.48,399.401864 277.270864,397.611 279.48,397.611 C281.689136,397.611 283.48,399.401864 283.48,401.611 "/>
+                                </g>
+                                <g fill="#e6f598" fill-opacity="1" stroke="#808854" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M316.657,401.791 C316.657,404.000136 314.866136,405.791 312.657,405.791 C310.447864,405.791 308.657,404.000136 308.657,401.791 C308.657,399.581864 310.447864,397.791 312.657,397.791 C314.866136,397.791 316.657,399.581864 316.657,401.791 "/>
+                                </g>
+                                <g fill="#e6f598" fill-opacity="1" stroke="#808854" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M351.767,402.248 C351.767,404.457136 349.976136,406.248 347.767,406.248 C345.557864,406.248 343.767,404.457136 343.767,402.248 C343.767,400.038864 345.557864,398.248 347.767,398.248 C349.976136,398.248 351.767,400.038864 351.767,402.248 "/>
+                                </g>
+                                <g fill="#e6f598" fill-opacity="1" stroke="#808854" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M355.613,404.117 C355.613,406.326136 353.822136,408.117 351.613,408.117 C349.403864,408.117 347.613,406.326136 347.613,404.117 C347.613,401.907864 349.403864,400.117 351.613,400.117 C353.822136,400.117 355.613,401.907864 355.613,404.117 "/>
+                                </g>
+                                <g fill="#e6f598" fill-opacity="1" stroke="#808854" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M356.714,404.446 C356.714,406.655136 354.923136,408.446 352.714,408.446 C350.504864,408.446 348.714,406.655136 348.714,404.446 C348.714,402.236864 350.504864,400.446 352.714,400.446 C354.923136,400.446 356.714,402.236864 356.714,404.446 "/>
+                                </g>
+                                <g fill="#e6f598" fill-opacity="1" stroke="#808854" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M453.416,404.481 C453.416,406.690136 451.625136,408.481 449.416,408.481 C447.206864,408.481 445.416,406.690136 445.416,404.481 C445.416,402.271864 447.206864,400.481 449.416,400.481 C451.625136,400.481 453.416,402.271864 453.416,404.481 "/>
+                                </g>
+                                <g fill="#e6f598" fill-opacity="1" stroke="#808854" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M469.532,405.763 C469.532,407.972136 467.741136,409.763 465.532,409.763 C463.322864,409.763 461.532,407.972136 461.532,405.763 C461.532,403.553864 463.322864,401.763 465.532,401.763 C467.741136,401.763 469.532,403.553864 469.532,405.763 "/>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="PlotDataItem_7">
+                            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="PlotCurveItem_7">
+                                <g fill="none" stroke="#f2f2b5" stroke-opacity="1" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <polyline fill="none" points="154.10431370000015,373.194328544 177.80869398000027,389.10782824399996"/>
+                                    <polyline fill="none" points="177.80869398000027,389.10782824399996 189.52427138000007,396.514104254"/>
+                                    <polyline fill="none" points="189.52427138000007,396.514104254 193.0679230600001,399.03842000599997"/>
+                                    <polyline fill="none" points="193.0679230600001,399.03842000599997 194.7114157200001,399.60025283"/>
+                                    <polyline fill="none" points="194.7114157200001,399.60025283 230.47911492000003,401.612977418"/>
+                                    <polyline fill="none" points="230.47911492000003,401.612977418 230.71922216000007,401.62302575"/>
+                                    <polyline fill="none" points="230.71922216000007,401.62302575 280.6739474200001,401.993503382"/>
+                                    <polyline fill="none" points="280.6739474200001,401.993503382 341.13543432000006,402.64970315"/>
+                                    <polyline fill="none" points="341.13543432000006,402.64970315 344.68736556,403.489394198"/>
+                                    <polyline fill="none" points="344.68736556,403.489394198 347.40720102,406.24569535399996"/>
+                                    <polyline fill="none" points="347.40720102,406.24569535399996 352.62746360000006,406.336130342"/>
+                                </g>
+                            </g>
+                            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="ScatterPlotItem_7">
+                                <g fill="#f2f2b5" fill-opacity="1" stroke="#868665" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M158.102,373.195 C158.102,375.404136 156.311136,377.195 154.102,377.195 C151.892864,377.195 150.102,375.404136 150.102,373.195 C150.102,370.985864 151.892864,369.195 154.102,369.195 C156.311136,369.195 158.102,370.985864 158.102,373.195 "/>
+                                </g>
+                                <g fill="#f2f2b5" fill-opacity="1" stroke="#868665" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M181.807,389.108 C181.807,391.317136 180.016136,393.108 177.807,393.108 C175.597864,393.108 173.807,391.317136 173.807,389.108 C173.807,386.898864 175.597864,385.108 177.807,385.108 C180.016136,385.108 181.807,386.898864 181.807,389.108 "/>
+                                </g>
+                                <g fill="#f2f2b5" fill-opacity="1" stroke="#868665" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M193.522,396.514 C193.522,398.723136 191.731136,400.514 189.522,400.514 C187.312864,400.514 185.522,398.723136 185.522,396.514 C185.522,394.304864 187.312864,392.514 189.522,392.514 C191.731136,392.514 193.522,394.304864 193.522,396.514 "/>
+                                </g>
+                                <g fill="#f2f2b5" fill-opacity="1" stroke="#868665" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M197.064,399.039 C197.064,401.248136 195.273136,403.039 193.064,403.039 C190.854864,403.039 189.064,401.248136 189.064,399.039 C189.064,396.829864 190.854864,395.039 193.064,395.039 C195.273136,395.039 197.064,396.829864 197.064,399.039 "/>
+                                </g>
+                                <g fill="#f2f2b5" fill-opacity="1" stroke="#868665" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M198.707,399.601 C198.707,401.810136 196.916136,403.601 194.707,403.601 C192.497864,403.601 190.707,401.810136 190.707,399.601 C190.707,397.391864 192.497864,395.601 194.707,395.601 C196.916136,395.601 198.707,397.391864 198.707,399.601 "/>
+                                </g>
+                                <g fill="#f2f2b5" fill-opacity="1" stroke="#868665" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M234.474,401.613 C234.474,403.822136 232.683136,405.613 230.474,405.613 C228.264864,405.613 226.474,403.822136 226.474,401.613 C226.474,399.403864 228.264864,397.613 230.474,397.613 C232.683136,397.613 234.474,399.403864 234.474,401.613 "/>
+                                </g>
+                                <g fill="#f2f2b5" fill-opacity="1" stroke="#868665" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M234.716,401.623 C234.716,403.832136 232.925136,405.623 230.716,405.623 C228.506864,405.623 226.716,403.832136 226.716,401.623 C226.716,399.413864 228.506864,397.623 230.716,397.623 C232.925136,397.623 234.716,399.413864 234.716,401.623 "/>
+                                </g>
+                                <g fill="#f2f2b5" fill-opacity="1" stroke="#868665" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M284.672,401.994 C284.672,404.20313600000003 282.881136,405.994 280.672,405.994 C278.462864,405.994 276.672,404.20313600000003 276.672,401.994 C276.672,399.784864 278.462864,397.994 280.672,397.994 C282.881136,397.994 284.672,399.784864 284.672,401.994 "/>
+                                </g>
+                                <g fill="#f2f2b5" fill-opacity="1" stroke="#868665" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M345.13,402.65 C345.13,404.859136 343.339136,406.65 341.13,406.65 C338.920864,406.65 337.13,404.859136 337.13,402.65 C337.13,400.440864 338.920864,398.65 341.13,398.65 C343.339136,398.65 345.13,400.440864 345.13,402.65 "/>
+                                </g>
+                                <g fill="#f2f2b5" fill-opacity="1" stroke="#868665" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M348.684,403.49 C348.684,405.699136 346.893136,407.49 344.684,407.49 C342.474864,407.49 340.684,405.699136 340.684,403.49 C340.684,401.280864 342.474864,399.49 344.684,399.49 C346.893136,399.49 348.684,401.280864 348.684,403.49 "/>
+                                </g>
+                                <g fill="#f2f2b5" fill-opacity="1" stroke="#868665" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M351.406,406.246 C351.406,408.455136 349.615136,410.246 347.406,410.246 C345.196864,410.246 343.406,408.455136 343.406,406.246 C343.406,404.036864 345.196864,402.246 347.406,402.246 C349.615136,402.246 351.406,404.036864 351.406,406.246 "/>
+                                </g>
+                                <g fill="#f2f2b5" fill-opacity="1" stroke="#868665" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M356.625,406.337 C356.625,408.546136 354.834136,410.337 352.625,410.337 C350.415864,410.337 348.625,408.546136 348.625,406.337 C348.625,404.127864 350.415864,402.337 352.625,402.337 C354.834136,402.337 356.625,404.127864 356.625,406.337 "/>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="PlotDataItem_8">
+                            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="PlotCurveItem_8">
+                                <g fill="none" stroke="#fee08b" stroke-opacity="1" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <polyline fill="none" points="152.1089397400001,373.37126656399994 152.35732654000003,373.385902178"/>
+                                    <polyline fill="none" points="152.35732654000003,373.385902178 154.10431370000015,392.49215015"/>
+                                    <polyline fill="none" points="154.10431370000015,392.49215015 181.2736898400001,392.59066749199997"/>
+                                    <polyline fill="none" points="181.2736898400001,392.59066749199997 184.01422419999994,395.08178005999997"/>
+                                    <polyline fill="none" points="184.01422419999994,395.08178005999997 185.0201907400001,395.111488172"/>
+                                    <polyline fill="none" points="185.0201907400001,395.111488172 187.11905920000027,395.151463058"/>
+                                    <polyline fill="none" points="187.11905920000027,395.151463058 189.38765864000015,399.039512216"/>
+                                    <polyline fill="none" points="189.38765864000015,399.039512216 190.07486212000026,399.720177488"/>
+                                    <polyline fill="none" points="190.07486212000026,399.720177488 200.36635520000027,399.78986048599995"/>
+                                    <polyline fill="none" points="200.36635520000027,399.78986048599995 207.9338730400002,400.36064943199995"/>
+                                    <polyline fill="none" points="207.9338730400002,400.36064943199995 213.4687589,401.026242206"/>
+                                    <polyline fill="none" points="213.4687589,401.026242206 225.3375081600002,401.80891989199995"/>
+                                    <polyline fill="none" points="225.3375081600002,401.80891989199995 230.3425021800001,401.963139944"/>
+                                    <polyline fill="none" points="230.3425021800001,401.963139944 250.1720483800002,403.277068574"/>
+                                    <polyline fill="none" points="250.1720483800002,403.277068574 339.58301682,404.051663906"/>
+                                    <polyline fill="none" points="339.58301682,404.051663906 345.76370836000024,406.599352952"/>
+                                    <polyline fill="none" points="345.76370836000024,406.599352952 345.76784814000007,407.40343795399997"/>
+                                    <polyline fill="none" points="345.76784814000007,407.40343795399997 541.4386896200003,407.430524762"/>
+                                </g>
+                            </g>
+                            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="ScatterPlotItem_8">
+                                <g fill="#fee08b" fill-opacity="1" stroke="#8d7c4d" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M156.106,373.372 C156.106,375.581136 154.315136,377.372 152.106,377.372 C149.896864,377.372 148.106,375.581136 148.106,373.372 C148.106,371.162864 149.896864,369.372 152.106,369.372 C154.315136,369.372 156.106,371.162864 156.106,373.372 "/>
+                                </g>
+                                <g fill="#fee08b" fill-opacity="1" stroke="#8d7c4d" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M156.355,373.386 C156.355,375.595136 154.564136,377.386 152.355,377.386 C150.145864,377.386 148.355,375.595136 148.355,373.386 C148.355,371.176864 150.145864,369.386 152.355,369.386 C154.564136,369.386 156.355,371.176864 156.355,373.386 "/>
+                                </g>
+                                <g fill="#fee08b" fill-opacity="1" stroke="#8d7c4d" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M158.102,392.493 C158.102,394.702136 156.311136,396.493 154.102,396.493 C151.892864,396.493 150.102,394.702136 150.102,392.493 C150.102,390.283864 151.892864,388.493 154.102,388.493 C156.311136,388.493 158.102,390.283864 158.102,392.493 "/>
+                                </g>
+                                <g fill="#fee08b" fill-opacity="1" stroke="#8d7c4d" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M185.268,392.591 C185.268,394.800136 183.477136,396.591 181.268,396.591 C179.058864,396.591 177.268,394.800136 177.268,392.591 C177.268,390.381864 179.058864,388.591 181.268,388.591 C183.477136,388.591 185.268,390.381864 185.268,392.591 "/>
+                                </g>
+                                <g fill="#fee08b" fill-opacity="1" stroke="#8d7c4d" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M188.011,395.082 C188.011,397.291136 186.220136,399.082 184.011,399.082 C181.801864,399.082 180.011,397.291136 180.011,395.082 C180.011,392.872864 181.801864,391.082 184.011,391.082 C186.220136,391.082 188.011,392.872864 188.011,395.082 "/>
+                                </g>
+                                <g fill="#fee08b" fill-opacity="1" stroke="#8d7c4d" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M189.016,395.112 C189.016,397.321136 187.225136,399.112 185.016,399.112 C182.806864,399.112 181.016,397.321136 181.016,395.112 C181.016,392.902864 182.806864,391.112 185.016,391.112 C187.225136,391.112 189.016,392.902864 189.016,395.112 "/>
+                                </g>
+                                <g fill="#fee08b" fill-opacity="1" stroke="#8d7c4d" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M191.114,395.152 C191.114,397.361136 189.323136,399.152 187.114,399.152 C184.904864,399.152 183.114,397.361136 183.114,395.152 C183.114,392.942864 184.904864,391.152 187.114,391.152 C189.323136,391.152 191.114,392.942864 191.114,395.152 "/>
+                                </g>
+                                <g fill="#fee08b" fill-opacity="1" stroke="#8d7c4d" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M193.383,399.04 C193.383,401.249136 191.592136,403.04 189.383,403.04 C187.173864,403.04 185.383,401.249136 185.383,399.04 C185.383,396.830864 187.173864,395.04 189.383,395.04 C191.592136,395.04 193.383,396.830864 193.383,399.04 "/>
+                                </g>
+                                <g fill="#fee08b" fill-opacity="1" stroke="#8d7c4d" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M194.073,399.721 C194.073,401.930136 192.282136,403.721 190.073,403.721 C187.863864,403.721 186.073,401.930136 186.073,399.721 C186.073,397.511864 187.863864,395.721 190.073,395.721 C192.282136,395.721 194.073,397.511864 194.073,399.721 "/>
+                                </g>
+                                <g fill="#fee08b" fill-opacity="1" stroke="#8d7c4d" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M204.362,399.79 C204.362,401.999136 202.571136,403.79 200.362,403.79 C198.152864,403.79 196.362,401.999136 196.362,399.79 C196.362,397.580864 198.152864,395.79 200.362,395.79 C202.571136,395.79 204.362,397.580864 204.362,399.79 "/>
+                                </g>
+                                <g fill="#fee08b" fill-opacity="1" stroke="#8d7c4d" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M211.931,400.361 C211.931,402.570136 210.140136,404.361 207.931,404.361 C205.721864,404.361 203.931,402.570136 203.931,400.361 C203.931,398.151864 205.721864,396.361 207.931,396.361 C210.140136,396.361 211.931,398.151864 211.931,400.361 "/>
+                                </g>
+                                <g fill="#fee08b" fill-opacity="1" stroke="#8d7c4d" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M217.465,401.027 C217.465,403.236136 215.674136,405.027 213.465,405.027 C211.255864,405.027 209.465,403.236136 209.465,401.027 C209.465,398.817864 211.255864,397.027 213.465,397.027 C215.674136,397.027 217.465,398.817864 217.465,401.027 "/>
+                                </g>
+                                <g fill="#fee08b" fill-opacity="1" stroke="#8d7c4d" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M229.335,401.809 C229.335,404.018136 227.544136,405.809 225.335,405.809 C223.125864,405.809 221.335,404.018136 221.335,401.809 C221.335,399.599864 223.125864,397.809 225.335,397.809 C227.544136,397.809 229.335,399.599864 229.335,401.809 "/>
+                                </g>
+                                <g fill="#fee08b" fill-opacity="1" stroke="#8d7c4d" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M234.341,401.963 C234.341,404.172136 232.550136,405.963 230.341,405.963 C228.131864,405.963 226.341,404.172136 226.341,401.963 C226.341,399.753864 228.131864,397.963 230.341,397.963 C232.550136,397.963 234.341,399.753864 234.341,401.963 "/>
+                                </g>
+                                <g fill="#fee08b" fill-opacity="1" stroke="#8d7c4d" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M254.17,403.278 C254.17,405.487136 252.379136,407.278 250.17,407.278 C247.960864,407.278 246.17,405.487136 246.17,403.278 C246.17,401.068864 247.960864,399.278 250.17,399.278 C252.379136,399.278 254.17,401.068864 254.17,403.278 "/>
+                                </g>
+                                <g fill="#fee08b" fill-opacity="1" stroke="#8d7c4d" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M343.578,404.052 C343.578,406.261136 341.787136,408.052 339.578,408.052 C337.368864,408.052 335.578,406.261136 335.578,404.052 C335.578,401.842864 337.368864,400.052 339.578,400.052 C341.787136,400.052 343.578,401.842864 343.578,404.052 "/>
+                                </g>
+                                <g fill="#fee08b" fill-opacity="1" stroke="#8d7c4d" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M349.759,406.6 C349.759,408.809136 347.968136,410.6 345.759,410.6 C343.549864,410.6 341.759,408.809136 341.759,406.6 C341.759,404.390864 343.549864,402.6 345.759,402.6 C347.968136,402.6 349.759,404.390864 349.759,406.6 "/>
+                                </g>
+                                <g fill="#fee08b" fill-opacity="1" stroke="#8d7c4d" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M349.765,407.404 C349.765,409.613136 347.974136,411.404 345.765,411.404 C343.555864,411.404 341.765,409.613136 341.765,407.404 C341.765,405.194864 343.555864,403.404 345.765,403.404 C347.974136,403.404 349.765,405.194864 349.765,407.404 "/>
+                                </g>
+                                <g fill="#fee08b" fill-opacity="1" stroke="#8d7c4d" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M545.436,407.431 C545.436,409.640136 543.645136,411.431 541.436,411.431 C539.2268640000001,411.431 537.436,409.640136 537.436,407.431 C537.436,405.221864 539.2268640000001,403.431 541.436,403.431 C543.645136,403.431 545.436,405.221864 545.436,407.431 "/>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="PlotDataItem_9">
+                            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="PlotCurveItem_9">
+                                <g fill="none" stroke="#fdae61" stroke-opacity="1" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <polyline fill="none" points="141.99545720000015,368.31913998799996 147.06254792000004,392.61556987999995"/>
+                                    <polyline fill="none" points="147.06254792000004,392.61556987999995 149.44706120000023,392.98036802"/>
+                                    <polyline fill="none" points="149.44706120000023,392.98036802 180.4208951600001,397.37607638599997"/>
+                                    <polyline fill="none" points="180.4208951600001,397.37607638599997 180.87213118,397.39508084"/>
+                                    <polyline fill="none" points="180.87213118,397.39508084 187.2432526,399.47923596199996"/>
+                                    <polyline fill="none" points="187.2432526,399.47923596199996 190.0003460800001,399.711876692"/>
+                                    <polyline fill="none" points="190.0003460800001,399.711876692 190.07486212000026,399.720177488"/>
+                                    <polyline fill="none" points="190.07486212000026,399.720177488 190.0790019000001,399.720177488"/>
+                                    <polyline fill="none" points="190.0790019000001,399.720177488 193.18797668000002,399.82634029999997"/>
+                                    <polyline fill="none" points="193.18797668000002,399.82634029999997 203.6492007400002,400.615134362"/>
+                                    <polyline fill="none" points="203.6492007400002,400.615134362 205.1064033,402.74559918799997"/>
+                                    <polyline fill="none" points="205.1064033,402.74559918799997 250.1720483800002,403.277068574"/>
+                                    <polyline fill="none" points="250.1720483800002,403.277068574 261.33703504000005,403.85331856999994"/>
+                                    <polyline fill="none" points="261.33703504000005,403.85331856999994 266.77256618,405.396174416"/>
+                                    <polyline fill="none" points="266.77256618,405.396174416 336.5692569800001,406.376978996"/>
+                                    <polyline fill="none" points="336.5692569800001,406.376978996 345.76370836000024,406.599352952"/>
+                                    <polyline fill="none" points="345.76370836000024,406.599352952 345.76784814000007,407.40343795399997"/>
+                                    <polyline fill="none" points="345.76784814000007,407.40343795399997 541.4386896200003,407.430524762"/>
+                                    <polyline fill="none" points="541.4386896200003,407.430524762 546.6920704400002,407.557221122"/>
+                                    <polyline fill="none" points="546.6920704400002,407.557221122 563.1601152800001,408.05352134599997"/>
+                                </g>
+                            </g>
+                            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="ScatterPlotItem_9">
+                                <g fill="#fdae61" fill-opacity="1" stroke="#8d6136" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M145.99,368.319 C145.99,370.528136 144.199136,372.319 141.99,372.319 C139.780864,372.319 137.99,370.528136 137.99,368.319 C137.99,366.109864 139.780864,364.319 141.99,364.319 C144.199136,364.319 145.99,366.109864 145.99,368.319 "/>
+                                </g>
+                                <g fill="#fdae61" fill-opacity="1" stroke="#8d6136" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M151.061,392.616 C151.061,394.825136 149.270136,396.616 147.061,396.616 C144.851864,396.616 143.061,394.825136 143.061,392.616 C143.061,390.406864 144.851864,388.616 147.061,388.616 C149.270136,388.616 151.061,390.406864 151.061,392.616 "/>
+                                </g>
+                                <g fill="#fdae61" fill-opacity="1" stroke="#8d6136" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M153.444,392.981 C153.444,395.190136 151.653136,396.981 149.444,396.981 C147.234864,396.981 145.444,395.190136 145.444,392.981 C145.444,390.771864 147.234864,388.981 149.444,388.981 C151.653136,388.981 153.444,390.771864 153.444,392.981 "/>
+                                </g>
+                                <g fill="#fdae61" fill-opacity="1" stroke="#8d6136" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M184.418,397.377 C184.418,399.586136 182.627136,401.377 180.418,401.377 C178.208864,401.377 176.418,399.586136 176.418,397.377 C176.418,395.167864 178.208864,393.377 180.418,393.377 C182.627136,393.377 184.418,395.167864 184.418,397.377 "/>
+                                </g>
+                                <g fill="#fdae61" fill-opacity="1" stroke="#8d6136" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M184.869,397.396 C184.869,399.605136 183.078136,401.396 180.869,401.396 C178.659864,401.396 176.869,399.605136 176.869,397.396 C176.869,395.186864 178.659864,393.396 180.869,393.396 C183.078136,393.396 184.869,395.186864 184.869,397.396 "/>
+                                </g>
+                                <g fill="#fdae61" fill-opacity="1" stroke="#8d6136" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M191.24,399.48 C191.24,401.689136 189.449136,403.48 187.24,403.48 C185.030864,403.48 183.24,401.689136 183.24,399.48 C183.24,397.270864 185.030864,395.48 187.24,395.48 C189.449136,395.48 191.24,397.270864 191.24,399.48 "/>
+                                </g>
+                                <g fill="#fdae61" fill-opacity="1" stroke="#8d6136" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M193.995,399.712 C193.995,401.921136 192.204136,403.712 189.995,403.712 C187.785864,403.712 185.995,401.921136 185.995,399.712 C185.995,397.502864 187.785864,395.712 189.995,395.712 C192.204136,395.712 193.995,397.502864 193.995,399.712 "/>
+                                </g>
+                                <g fill="#fdae61" fill-opacity="1" stroke="#8d6136" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M194.073,399.721 C194.073,401.930136 192.282136,403.721 190.073,403.721 C187.863864,403.721 186.073,401.930136 186.073,399.721 C186.073,397.511864 187.863864,395.721 190.073,395.721 C192.282136,395.721 194.073,397.511864 194.073,399.721 "/>
+                                </g>
+                                <g fill="#fdae61" fill-opacity="1" stroke="#8d6136" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M194.074,399.721 C194.074,401.930136 192.283136,403.721 190.074,403.721 C187.864864,403.721 186.074,401.930136 186.074,399.721 C186.074,397.511864 187.864864,395.721 190.074,395.721 C192.283136,395.721 194.074,397.511864 194.074,399.721 "/>
+                                </g>
+                                <g fill="#fdae61" fill-opacity="1" stroke="#8d6136" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M197.184,399.827 C197.184,402.036136 195.393136,403.827 193.184,403.827 C190.974864,403.827 189.184,402.036136 189.184,399.827 C189.184,397.617864 190.974864,395.827 193.184,395.827 C195.393136,395.827 197.184,397.617864 197.184,399.827 "/>
+                                </g>
+                                <g fill="#fdae61" fill-opacity="1" stroke="#8d6136" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M207.645,400.615 C207.645,402.824136 205.854136,404.615 203.645,404.615 C201.435864,404.615 199.645,402.824136 199.645,400.615 C199.645,398.405864 201.435864,396.615 203.645,396.615 C205.854136,396.615 207.645,398.405864 207.645,400.615 "/>
+                                </g>
+                                <g fill="#fdae61" fill-opacity="1" stroke="#8d6136" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M209.104,402.746 C209.104,404.955136 207.31313600000001,406.746 205.104,406.746 C202.894864,406.746 201.104,404.955136 201.104,402.746 C201.104,400.536864 202.894864,398.746 205.104,398.746 C207.31313600000001,398.746 209.104,400.536864 209.104,402.746 "/>
+                                </g>
+                                <g fill="#fdae61" fill-opacity="1" stroke="#8d6136" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M254.17,403.278 C254.17,405.487136 252.379136,407.278 250.17,407.278 C247.960864,407.278 246.17,405.487136 246.17,403.278 C246.17,401.068864 247.960864,399.278 250.17,399.278 C252.379136,399.278 254.17,401.068864 254.17,403.278 "/>
+                                </g>
+                                <g fill="#fdae61" fill-opacity="1" stroke="#8d6136" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M265.335,403.854 C265.335,406.063136 263.544136,407.854 261.335,407.854 C259.125864,407.854 257.335,406.063136 257.335,403.854 C257.335,401.644864 259.125864,399.854 261.335,399.854 C263.544136,399.854 265.335,401.644864 265.335,403.854 "/>
+                                </g>
+                                <g fill="#fdae61" fill-opacity="1" stroke="#8d6136" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M270.768,405.397 C270.768,407.606136 268.977136,409.397 266.768,409.397 C264.55886399999997,409.397 262.768,407.606136 262.768,405.397 C262.768,403.187864 264.55886399999997,401.397 266.768,401.397 C268.977136,401.397 270.768,403.187864 270.768,405.397 "/>
+                                </g>
+                                <g fill="#fdae61" fill-opacity="1" stroke="#8d6136" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M340.567,406.377 C340.567,408.586136 338.776136,410.377 336.567,410.377 C334.357864,410.377 332.567,408.586136 332.567,406.377 C332.567,404.167864 334.357864,402.377 336.567,402.377 C338.776136,402.377 340.567,404.167864 340.567,406.377 "/>
+                                </g>
+                                <g fill="#fdae61" fill-opacity="1" stroke="#8d6136" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M349.759,406.6 C349.759,408.809136 347.968136,410.6 345.759,410.6 C343.549864,410.6 341.759,408.809136 341.759,406.6 C341.759,404.390864 343.549864,402.6 345.759,402.6 C347.968136,402.6 349.759,404.390864 349.759,406.6 "/>
+                                </g>
+                                <g fill="#fdae61" fill-opacity="1" stroke="#8d6136" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M349.765,407.404 C349.765,409.613136 347.974136,411.404 345.765,411.404 C343.555864,411.404 341.765,409.613136 341.765,407.404 C341.765,405.194864 343.555864,403.404 345.765,403.404 C347.974136,403.404 349.765,405.194864 349.765,407.404 "/>
+                                </g>
+                                <g fill="#fdae61" fill-opacity="1" stroke="#8d6136" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M545.436,407.431 C545.436,409.640136 543.645136,411.431 541.436,411.431 C539.2268640000001,411.431 537.436,409.640136 537.436,407.431 C537.436,405.221864 539.2268640000001,403.431 541.436,403.431 C543.645136,403.431 545.436,405.221864 545.436,407.431 "/>
+                                </g>
+                                <g fill="#fdae61" fill-opacity="1" stroke="#8d6136" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M550.69,407.558 C550.69,409.767136 548.899136,411.558 546.69,411.558 C544.4808640000001,411.558 542.69,409.767136 542.69,407.558 C542.69,405.348864 544.4808640000001,403.558 546.69,403.558 C548.899136,403.558 550.69,405.348864 550.69,407.558 "/>
+                                </g>
+                                <g fill="#fdae61" fill-opacity="1" stroke="#8d6136" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M567.158,408.054 C567.158,410.263136 565.367136,412.054 563.158,412.054 C560.9488640000001,412.054 559.158,410.263136 559.158,408.054 C559.158,405.844864 560.9488640000001,404.054 563.158,404.054 C565.367136,404.054 567.158,405.844864 567.158,408.054 "/>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="PlotDataItem_10">
+                            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="PlotCurveItem_10">
+                                <g fill="none" stroke="#f46d43" stroke-opacity="1" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <polyline fill="none" points="126.68241097999999,367.43903717 141.99545720000015,368.31913998799996"/>
+                                    <polyline fill="none" points="141.99545720000015,368.31913998799996 147.06254792000004,392.61556987999995"/>
+                                    <polyline fill="none" points="147.06254792000004,392.61556987999995 147.08738660000017,392.62146781399997"/>
+                                    <polyline fill="none" points="147.08738660000017,392.62146781399997 149.44706120000023,393.31982688799997"/>
+                                    <polyline fill="none" points="149.44706120000023,393.31982688799997 153.5661422999999,394.805887814"/>
+                                    <polyline fill="none" points="153.5661422999999,394.805887814 160.3760804000001,395.941130888"/>
+                                    <polyline fill="none" points="160.3760804000001,395.941130888 165.80747176,397.97242304599996"/>
+                                    <polyline fill="none" points="165.80747176,397.97242304599996 184.8380404200002,399.266255012"/>
+                                    <polyline fill="none" points="184.8380404200002,399.266255012 186.03857662000019,399.40715010199995"/>
+                                    <polyline fill="none" points="186.03857662000019,399.40715010199995 187.2432526,399.47923596199996"/>
+                                    <polyline fill="none" points="187.2432526,399.47923596199996 189.23034699999994,401.142016466"/>
+                                    <polyline fill="none" points="189.23034699999994,401.142016466 205.1064033,402.74559918799997"/>
+                                    <polyline fill="none" points="205.1064033,402.74559918799997 231.25325378000025,402.75324465799997"/>
+                                    <polyline fill="none" points="231.25325378000025,402.75324465799997 250.1720483800002,403.277068574"/>
+                                    <polyline fill="none" points="250.1720483800002,403.277068574 257.0068251600003,403.540072742"/>
+                                    <polyline fill="none" points="257.0068251600003,403.540072742 261.33703504000005,403.85331856999994"/>
+                                    <polyline fill="none" points="261.33703504000005,403.85331856999994 261.50262624000015,404.952518714"/>
+                                    <polyline fill="none" points="261.50262624000015,404.952518714 266.77256618,405.396174416"/>
+                                    <polyline fill="none" points="266.77256618,405.396174416 297.9989267200001,405.49862371399996"/>
+                                    <polyline fill="none" points="297.9989267200001,405.49862371399996 299.90322552,405.54231211399997"/>
+                                    <polyline fill="none" points="299.90322552,405.54231211399997 303.0080605200003,406.554790784"/>
+                                    <polyline fill="none" points="303.0080605200003,406.554790784 345.76370836000024,406.60175581399994"/>
+                                    <polyline fill="none" points="345.76370836000024,406.60175581399994 345.76784814000007,407.40343795399997"/>
+                                    <polyline fill="none" points="345.76784814000007,407.40343795399997 392.73779202000014,407.477926676"/>
+                                    <polyline fill="none" points="392.73779202000014,407.477926676 472.47409460000017,407.68129617799997"/>
+                                    <polyline fill="none" points="472.47409460000017,407.68129617799997 534.9764930399999,408.008303852"/>
+                                    <polyline fill="none" points="534.9764930399999,408.008303852 551.05953834,408.046094318"/>
+                                    <polyline fill="none" points="551.05953834,408.046094318 563.1601152800001,408.05352134599997"/>
+                                    <polyline fill="none" points="563.1601152800001,408.05352134599997 563.1601152800001,408.06924917"/>
+                                </g>
+                            </g>
+                            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="ScatterPlotItem_10">
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M130.68099999999998,367.44 C130.68099999999998,369.649136 128.89013599999998,371.44 126.681,371.44 C124.471864,371.44 122.681,369.649136 122.681,367.44 C122.681,365.230864 124.471864,363.44 126.681,363.44 C128.89013599999998,363.44 130.68099999999998,365.230864 130.68099999999998,367.44 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M145.99,368.319 C145.99,370.528136 144.199136,372.319 141.99,372.319 C139.780864,372.319 137.99,370.528136 137.99,368.319 C137.99,366.109864 139.780864,364.319 141.99,364.319 C144.199136,364.319 145.99,366.109864 145.99,368.319 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M151.061,392.616 C151.061,394.825136 149.270136,396.616 147.061,396.616 C144.851864,396.616 143.061,394.825136 143.061,392.616 C143.061,390.406864 144.851864,388.616 147.061,388.616 C149.270136,388.616 151.061,390.406864 151.061,392.616 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M151.084,392.622 C151.084,394.831136 149.293136,396.622 147.084,396.622 C144.874864,396.622 143.084,394.831136 143.084,392.622 C143.084,390.412864 144.874864,388.622 147.084,388.622 C149.293136,388.622 151.084,390.412864 151.084,392.622 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M153.444,393.32 C153.444,395.529136 151.653136,397.32 149.444,397.32 C147.234864,397.32 145.444,395.529136 145.444,393.32 C145.444,391.110864 147.234864,389.32 149.444,389.32 C151.653136,389.32 153.444,391.110864 153.444,393.32 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M157.564,394.806 C157.564,397.015136 155.773136,398.806 153.564,398.806 C151.354864,398.806 149.564,397.015136 149.564,394.806 C149.564,392.596864 151.354864,390.806 153.564,390.806 C155.773136,390.806 157.564,392.596864 157.564,394.806 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M164.372,395.942 C164.372,398.151136 162.58113600000001,399.942 160.372,399.942 C158.162864,399.942 156.372,398.151136 156.372,395.942 C156.372,393.732864 158.162864,391.942 160.372,391.942 C162.58113600000001,391.942 164.372,393.732864 164.372,395.942 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M169.804,397.973 C169.804,400.182136 168.013136,401.973 165.804,401.973 C163.594864,401.973 161.804,400.182136 161.804,397.973 C161.804,395.763864 163.594864,393.973 165.804,393.973 C168.013136,393.973 169.804,395.763864 169.804,397.973 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M188.836,399.267 C188.836,401.476136 187.045136,403.267 184.836,403.267 C182.626864,403.267 180.836,401.476136 180.836,399.267 C180.836,397.057864 182.626864,395.267 184.836,395.267 C187.045136,395.267 188.836,397.057864 188.836,399.267 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M190.036,399.407 C190.036,401.616136 188.245136,403.407 186.036,403.407 C183.826864,403.407 182.036,401.616136 182.036,399.407 C182.036,397.197864 183.826864,395.407 186.036,395.407 C188.245136,395.407 190.036,397.197864 190.036,399.407 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M191.24,399.48 C191.24,401.689136 189.449136,403.48 187.24,403.48 C185.030864,403.48 183.24,401.689136 183.24,399.48 C183.24,397.270864 185.030864,395.48 187.24,395.48 C189.449136,395.48 191.24,397.270864 191.24,399.48 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M193.227,401.142 C193.227,403.351136 191.436136,405.142 189.227,405.142 C187.017864,405.142 185.227,403.351136 185.227,401.142 C185.227,398.932864 187.017864,397.142 189.227,397.142 C191.436136,397.142 193.227,398.932864 193.227,401.142 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M209.104,402.746 C209.104,404.955136 207.31313600000001,406.746 205.104,406.746 C202.894864,406.746 201.104,404.955136 201.104,402.746 C201.104,400.536864 202.894864,398.746 205.104,398.746 C207.31313600000001,398.746 209.104,400.536864 209.104,402.746 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M235.249,402.754 C235.249,404.963136 233.458136,406.754 231.249,406.754 C229.039864,406.754 227.249,404.963136 227.249,402.754 C227.249,400.544864 229.039864,398.754 231.249,398.754 C233.458136,398.754 235.249,400.544864 235.249,402.754 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M254.17,403.278 C254.17,405.487136 252.379136,407.278 250.17,407.278 C247.960864,407.278 246.17,405.487136 246.17,403.278 C246.17,401.068864 247.960864,399.278 250.17,399.278 C252.379136,399.278 254.17,401.068864 254.17,403.278 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M261.006,403.54 C261.006,405.749136 259.215136,407.54 257.006,407.54 C254.79686399999997,407.54 253.00599999999997,405.749136 253.00599999999997,403.54 C253.00599999999997,401.330864 254.79686399999997,399.54 257.006,399.54 C259.215136,399.54 261.006,401.330864 261.006,403.54 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M265.335,403.854 C265.335,406.063136 263.544136,407.854 261.335,407.854 C259.125864,407.854 257.335,406.063136 257.335,403.854 C257.335,401.644864 259.125864,399.854 261.335,399.854 C263.544136,399.854 265.335,401.644864 265.335,403.854 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M265.498,404.953 C265.498,407.162136 263.707136,408.953 261.498,408.953 C259.288864,408.953 257.498,407.162136 257.498,404.953 C257.498,402.743864 259.288864,400.953 261.498,400.953 C263.707136,400.953 265.498,402.743864 265.498,404.953 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M270.768,405.397 C270.768,407.606136 268.977136,409.397 266.768,409.397 C264.55886399999997,409.397 262.768,407.606136 262.768,405.397 C262.768,403.187864 264.55886399999997,401.397 266.768,401.397 C268.977136,401.397 270.768,403.187864 270.768,405.397 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M301.996,405.499 C301.996,407.708136 300.205136,409.499 297.996,409.499 C295.786864,409.499 293.996,407.708136 293.996,405.499 C293.996,403.289864 295.786864,401.499 297.996,401.499 C300.205136,401.499 301.996,403.289864 301.996,405.499 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M303.899,405.543 C303.899,407.752136 302.108136,409.543 299.899,409.543 C297.689864,409.543 295.899,407.752136 295.899,405.543 C295.899,403.333864 297.689864,401.543 299.899,401.543 C302.108136,401.543 303.899,403.333864 303.899,405.543 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M307.006,406.555 C307.006,408.764136 305.215136,410.555 303.006,410.555 C300.79686399999997,410.555 299.006,408.764136 299.006,406.555 C299.006,404.345864 300.79686399999997,402.555 303.006,402.555 C305.215136,402.555 307.006,404.345864 307.006,406.555 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M349.759,406.602 C349.759,408.811136 347.968136,410.602 345.759,410.602 C343.549864,410.602 341.759,408.811136 341.759,406.602 C341.759,404.392864 343.549864,402.602 345.759,402.602 C347.968136,402.602 349.759,404.392864 349.759,406.602 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M349.765,407.404 C349.765,409.613136 347.974136,411.404 345.765,411.404 C343.555864,411.404 341.765,409.613136 341.765,407.404 C341.765,405.194864 343.555864,403.404 345.765,403.404 C347.974136,403.404 349.765,405.194864 349.765,407.404 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M396.734,407.478 C396.734,409.687136 394.943136,411.478 392.734,411.478 C390.524864,411.478 388.734,409.687136 388.734,407.478 C388.734,405.268864 390.524864,403.478 392.734,403.478 C394.943136,403.478 396.734,405.268864 396.734,407.478 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M476.47,407.682 C476.47,409.891136 474.679136,411.682 472.47,411.682 C470.260864,411.682 468.47,409.891136 468.47,407.682 C468.47,405.472864 470.260864,403.682 472.47,403.682 C474.679136,403.682 476.47,405.472864 476.47,407.682 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M538.974,408.009 C538.974,410.218136 537.183136,412.009 534.974,412.009 C532.7648640000001,412.009 530.974,410.218136 530.974,408.009 C530.974,405.799864 532.7648640000001,404.009 534.974,404.009 C537.183136,404.009 538.974,405.799864 538.974,408.009 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M555.056,408.046 C555.056,410.255136 553.265136,412.046 551.056,412.046 C548.8468640000001,412.046 547.056,410.255136 547.056,408.046 C547.056,405.836864 548.8468640000001,404.046 551.056,404.046 C553.265136,404.046 555.056,405.836864 555.056,408.046 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M567.158,408.054 C567.158,410.263136 565.367136,412.054 563.158,412.054 C560.9488640000001,412.054 559.158,410.263136 559.158,408.054 C559.158,405.844864 560.9488640000001,404.054 563.158,404.054 C565.367136,404.054 567.158,405.844864 567.158,408.054 "/>
+                                </g>
+                                <g fill="#f46d43" fill-opacity="1" stroke="#883d25" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M567.158,408.07 C567.158,410.279136 565.367136,412.07 563.158,412.07 C560.9488640000001,412.07 559.158,410.279136 559.158,408.07 C559.158,405.860864 560.9488640000001,404.07 563.158,404.07 C565.367136,404.07 567.158,405.860864 567.158,408.07 "/>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="PlotDataItem_11">
+                            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="PlotCurveItem_11">
+                                <g fill="none" stroke="#d53e4f" stroke-opacity="1" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <polyline fill="none" points="126.5002606600001,364.160878076 126.68241097999999,367.43903717"/>
+                                    <polyline fill="none" points="126.68241097999999,367.43903717 141.99545720000015,368.31913998799996"/>
+                                    <polyline fill="none" points="141.99545720000015,368.31913998799996 143.59755206000023,368.43513269"/>
+                                    <polyline fill="none" points="143.59755206000023,368.43513269 146.64856992,393.89039739199995"/>
+                                    <polyline fill="none" points="146.64856992,393.89039739199995 153.24323946000004,395.85681227599997"/>
+                                    <polyline fill="none" points="153.24323946000004,395.85681227599997 160.3760804000001,395.941130888"/>
+                                    <polyline fill="none" points="160.3760804000001,395.941130888 163.4436573800001,398.595638072"/>
+                                    <polyline fill="none" points="163.4436573800001,398.595638072 181.0749804000002,399.449309408"/>
+                                    <polyline fill="none" points="181.0749804000002,399.449309408 185.83986718000028,400.638507656"/>
+                                    <polyline fill="none" points="185.83986718000028,400.638507656 189.23034699999994,401.142016466"/>
+                                    <polyline fill="none" points="189.23034699999994,401.142016466 198.1722718000001,403.17833279"/>
+                                    <polyline fill="none" points="198.1722718000001,403.17833279 244.04103420000024,404.23187855599997"/>
+                                    <polyline fill="none" points="244.04103420000024,404.23187855599997 261.4902069000002,404.804415038"/>
+                                    <polyline fill="none" points="261.4902069000002,404.804415038 261.50262624000015,404.952518714"/>
+                                    <polyline fill="none" points="261.50262624000015,404.952518714 266.77256618,405.396174416"/>
+                                    <polyline fill="none" points="266.77256618,405.396174416 289.85183968000024,405.42610097"/>
+                                    <polyline fill="none" points="289.85183968000024,405.42610097 296.34301472000016,405.611995112"/>
+                                    <polyline fill="none" points="296.34301472000016,405.611995112 299.13322644000004,405.625320074"/>
+                                    <polyline fill="none" points="299.13322644000004,405.625320074 303.0080605200003,406.554790784"/>
+                                    <polyline fill="none" points="303.0080605200003,406.554790784 338.8212973000002,406.812770786"/>
+                                    <polyline fill="none" points="338.8212973000002,406.812770786 343.32951772,407.01810626599996"/>
+                                    <polyline fill="none" points="343.32951772,407.01810626599996 344.5424732600002,407.450184542"/>
+                                    <polyline fill="none" points="344.5424732600002,407.450184542 392.73779202000014,407.477926676"/>
+                                    <polyline fill="none" points="392.73779202000014,407.477926676 445.7104168999999,408.32373409999997"/>
+                                </g>
+                            </g>
+                            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="ScatterPlotItem_11">
+                                <g fill="#d53e4f" fill-opacity="1" stroke="#76222c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M130.499,364.161 C130.499,366.370136 128.708136,368.161 126.499,368.161 C124.289864,368.161 122.499,366.370136 122.499,364.161 C122.499,361.951864 124.289864,360.161 126.499,360.161 C128.708136,360.161 130.499,361.951864 130.499,364.161 "/>
+                                </g>
+                                <g fill="#d53e4f" fill-opacity="1" stroke="#76222c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M130.68099999999998,367.44 C130.68099999999998,369.649136 128.89013599999998,371.44 126.681,371.44 C124.471864,371.44 122.681,369.649136 122.681,367.44 C122.681,365.230864 124.471864,363.44 126.681,363.44 C128.89013599999998,363.44 130.68099999999998,365.230864 130.68099999999998,367.44 "/>
+                                </g>
+                                <g fill="#d53e4f" fill-opacity="1" stroke="#76222c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M145.99,368.319 C145.99,370.528136 144.199136,372.319 141.99,372.319 C139.780864,372.319 137.99,370.528136 137.99,368.319 C137.99,366.109864 139.780864,364.319 141.99,364.319 C144.199136,364.319 145.99,366.109864 145.99,368.319 "/>
+                                </g>
+                                <g fill="#d53e4f" fill-opacity="1" stroke="#76222c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M147.593,368.436 C147.593,370.645136 145.802136,372.436 143.593,372.436 C141.383864,372.436 139.593,370.645136 139.593,368.436 C139.593,366.226864 141.383864,364.436 143.593,364.436 C145.802136,364.436 147.593,366.226864 147.593,368.436 "/>
+                                </g>
+                                <g fill="#d53e4f" fill-opacity="1" stroke="#76222c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M150.645,393.891 C150.645,396.100136 148.854136,397.891 146.645,397.891 C144.435864,397.891 142.645,396.100136 142.645,393.891 C142.645,391.681864 144.435864,389.891 146.645,389.891 C148.854136,389.891 150.645,391.681864 150.645,393.891 "/>
+                                </g>
+                                <g fill="#d53e4f" fill-opacity="1" stroke="#76222c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M157.238,395.857 C157.238,398.06613600000003 155.447136,399.857 153.238,399.857 C151.028864,399.857 149.238,398.06613600000003 149.238,395.857 C149.238,393.647864 151.028864,391.857 153.238,391.857 C155.447136,391.857 157.238,393.647864 157.238,395.857 "/>
+                                </g>
+                                <g fill="#d53e4f" fill-opacity="1" stroke="#76222c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M164.372,395.942 C164.372,398.151136 162.58113600000001,399.942 160.372,399.942 C158.162864,399.942 156.372,398.151136 156.372,395.942 C156.372,393.732864 158.162864,391.942 160.372,391.942 C162.58113600000001,391.942 164.372,393.732864 164.372,395.942 "/>
+                                </g>
+                                <g fill="#d53e4f" fill-opacity="1" stroke="#76222c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M167.44,398.596 C167.44,400.805136 165.649136,402.596 163.44,402.596 C161.230864,402.596 159.44,400.805136 159.44,398.596 C159.44,396.386864 161.230864,394.596 163.44,394.596 C165.649136,394.596 167.44,396.386864 167.44,398.596 "/>
+                                </g>
+                                <g fill="#d53e4f" fill-opacity="1" stroke="#76222c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M185.073,399.45 C185.073,401.659136 183.282136,403.45 181.073,403.45 C178.863864,403.45 177.073,401.659136 177.073,399.45 C177.073,397.240864 178.863864,395.45 181.073,395.45 C183.282136,395.45 185.073,397.240864 185.073,399.45 "/>
+                                </g>
+                                <g fill="#d53e4f" fill-opacity="1" stroke="#76222c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M189.836,400.639 C189.836,402.848136 188.045136,404.639 185.836,404.639 C183.626864,404.639 181.836,402.848136 181.836,400.639 C181.836,398.429864 183.626864,396.639 185.836,396.639 C188.045136,396.639 189.836,398.429864 189.836,400.639 "/>
+                                </g>
+                                <g fill="#d53e4f" fill-opacity="1" stroke="#76222c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M193.227,401.142 C193.227,403.351136 191.436136,405.142 189.227,405.142 C187.017864,405.142 185.227,403.351136 185.227,401.142 C185.227,398.932864 187.017864,397.142 189.227,397.142 C191.436136,397.142 193.227,398.932864 193.227,401.142 "/>
+                                </g>
+                                <g fill="#d53e4f" fill-opacity="1" stroke="#76222c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M202.168,403.179 C202.168,405.388136 200.377136,407.179 198.168,407.179 C195.958864,407.179 194.168,405.388136 194.168,403.179 C194.168,400.969864 195.958864,399.179 198.168,399.179 C200.377136,399.179 202.168,400.969864 202.168,403.179 "/>
+                                </g>
+                                <g fill="#d53e4f" fill-opacity="1" stroke="#76222c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M248.037,404.232 C248.037,406.44113600000003 246.246136,408.232 244.037,408.232 C241.827864,408.232 240.037,406.44113600000003 240.037,404.232 C240.037,402.022864 241.827864,400.232 244.037,400.232 C246.246136,400.232 248.037,402.022864 248.037,404.232 "/>
+                                </g>
+                                <g fill="#d53e4f" fill-opacity="1" stroke="#76222c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M265.487,404.805 C265.487,407.014136 263.696136,408.805 261.487,408.805 C259.277864,408.805 257.487,407.014136 257.487,404.805 C257.487,402.595864 259.277864,400.805 261.487,400.805 C263.696136,400.805 265.487,402.595864 265.487,404.805 "/>
+                                </g>
+                                <g fill="#d53e4f" fill-opacity="1" stroke="#76222c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M265.498,404.953 C265.498,407.162136 263.707136,408.953 261.498,408.953 C259.288864,408.953 257.498,407.162136 257.498,404.953 C257.498,402.743864 259.288864,400.953 261.498,400.953 C263.707136,400.953 265.498,402.743864 265.498,404.953 "/>
+                                </g>
+                                <g fill="#d53e4f" fill-opacity="1" stroke="#76222c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M270.768,405.397 C270.768,407.606136 268.977136,409.397 266.768,409.397 C264.55886399999997,409.397 262.768,407.606136 262.768,405.397 C262.768,403.187864 264.55886399999997,401.397 266.768,401.397 C268.977136,401.397 270.768,403.187864 270.768,405.397 "/>
+                                </g>
+                                <g fill="#d53e4f" fill-opacity="1" stroke="#76222c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M293.847,405.426 C293.847,407.635136 292.056136,409.426 289.847,409.426 C287.637864,409.426 285.847,407.635136 285.847,405.426 C285.847,403.216864 287.637864,401.426 289.847,401.426 C292.056136,401.426 293.847,403.216864 293.847,405.426 "/>
+                                </g>
+                                <g fill="#d53e4f" fill-opacity="1" stroke="#76222c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M300.339,405.612 C300.339,407.821136 298.548136,409.612 296.339,409.612 C294.129864,409.612 292.339,407.821136 292.339,405.612 C292.339,403.402864 294.129864,401.612 296.339,401.612 C298.548136,401.612 300.339,403.402864 300.339,405.612 "/>
+                                </g>
+                                <g fill="#d53e4f" fill-opacity="1" stroke="#76222c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M303.128,405.626 C303.128,407.835136 301.337136,409.626 299.128,409.626 C296.918864,409.626 295.128,407.835136 295.128,405.626 C295.128,403.416864 296.918864,401.626 299.128,401.626 C301.337136,401.626 303.128,403.416864 303.128,405.626 "/>
+                                </g>
+                                <g fill="#d53e4f" fill-opacity="1" stroke="#76222c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M307.006,406.555 C307.006,408.764136 305.215136,410.555 303.006,410.555 C300.79686399999997,410.555 299.006,408.764136 299.006,406.555 C299.006,404.345864 300.79686399999997,402.555 303.006,402.555 C305.215136,402.555 307.006,404.345864 307.006,406.555 "/>
+                                </g>
+                                <g fill="#d53e4f" fill-opacity="1" stroke="#76222c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M342.818,406.813 C342.818,409.022136 341.027136,410.813 338.818,410.813 C336.608864,410.813 334.818,409.022136 334.818,406.813 C334.818,404.603864 336.608864,402.813 338.818,402.813 C341.027136,402.813 342.818,404.603864 342.818,406.813 "/>
+                                </g>
+                                <g fill="#d53e4f" fill-opacity="1" stroke="#76222c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M347.326,407.019 C347.326,409.228136 345.535136,411.019 343.326,411.019 C341.116864,411.019 339.326,409.228136 339.326,407.019 C339.326,404.809864 341.116864,403.019 343.326,403.019 C345.535136,403.019 347.326,404.809864 347.326,407.019 "/>
+                                </g>
+                                <g fill="#d53e4f" fill-opacity="1" stroke="#76222c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M348.54,407.451 C348.54,409.660136 346.749136,411.451 344.54,411.451 C342.330864,411.451 340.54,409.660136 340.54,407.451 C340.54,405.241864 342.330864,403.451 344.54,403.451 C346.749136,403.451 348.54,405.241864 348.54,407.451 "/>
+                                </g>
+                                <g fill="#d53e4f" fill-opacity="1" stroke="#76222c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M396.734,407.478 C396.734,409.687136 394.943136,411.478 392.734,411.478 C390.524864,411.478 388.734,409.687136 388.734,407.478 C388.734,405.268864 390.524864,403.478 392.734,403.478 C394.943136,403.478 396.734,405.268864 396.734,407.478 "/>
+                                </g>
+                                <g fill="#d53e4f" fill-opacity="1" stroke="#76222c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M449.709,408.324 C449.709,410.533136 447.918136,412.324 445.709,412.324 C443.499864,412.324 441.709,410.533136 441.709,408.324 C441.709,406.114864 443.499864,404.324 445.709,404.324 C447.918136,404.324 449.709,406.114864 449.709,408.324 "/>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="PlotDataItem_12">
+                            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="PlotCurveItem_12">
+                                <g fill="none" stroke="#9e0142" stroke-opacity="1" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <polyline fill="none" points="126.12354068000013,362.349557012 126.33880924000005,387.63836890999994"/>
+                                    <polyline fill="none" points="126.33880924000005,387.63836890999994 134.10089674000005,387.78581726"/>
+                                    <polyline fill="none" points="134.10089674000005,387.78581726 134.15057410000009,389.100182774"/>
+                                    <polyline fill="none" points="134.15057410000009,389.100182774 135.62433578000014,389.651967266"/>
+                                    <polyline fill="none" points="135.62433578000014,389.651967266 143.8417990800001,391.949758664"/>
+                                    <polyline fill="none" points="143.8417990800001,391.949758664 144.22265884000012,395.61412321399996"/>
+                                    <polyline fill="none" points="144.22265884000012,395.61412321399996 153.03625046000002,397.221856334"/>
+                                    <polyline fill="none" points="153.03625046000002,397.221856334 163.42295848000026,398.609399918"/>
+                                    <polyline fill="none" points="163.42295848000026,398.609399918 172.98585028000002,398.873714738"/>
+                                    <polyline fill="none" points="172.98585028000002,398.873714738 176.79444788,400.112280878"/>
+                                    <polyline fill="none" points="176.79444788,400.112280878 183.6954611399999,400.50372894199995"/>
+                                    <polyline fill="none" points="183.6954611399999,400.50372894199995 184.59793318000015,400.73615122999996"/>
+                                    <polyline fill="none" points="184.59793318000015,400.73615122999996 189.13927184,401.065561766"/>
+                                    <polyline fill="none" points="189.13927184,401.065561766 189.23034699999994,401.142016466"/>
+                                    <polyline fill="none" points="189.23034699999994,401.142016466 192.20684882,402.46140614599994"/>
+                                    <polyline fill="none" points="192.20684882,402.46140614599994 198.11017509999988,403.11935344999995"/>
+                                    <polyline fill="none" points="198.11017509999988,403.11935344999995 198.1722718000001,403.17833279"/>
+                                    <polyline fill="none" points="198.1722718000001,403.17833279 213.02166266000017,403.501408508"/>
+                                    <polyline fill="none" points="213.02166266000017,403.501408508 213.85789822000015,403.846328426"/>
+                                    <polyline fill="none" points="213.85789822000015,403.846328426 237.75270838000006,404.11916248399996"/>
+                                    <polyline fill="none" points="237.75270838000006,404.11916248399996 244.04103420000024,404.23187855599997"/>
+                                    <polyline fill="none" points="244.04103420000024,404.23187855599997 248.8845768000001,404.508863012"/>
+                                    <polyline fill="none" points="248.8845768000001,404.508863012 248.8845768000001,404.56784235199996"/>
+                                    <polyline fill="none" points="248.8845768000001,404.56784235199996 252.12188476000028,404.96081950999996"/>
+                                    <polyline fill="none" points="252.12188476000028,404.96081950999996 260.38902542000005,405.018925082"/>
+                                    <polyline fill="none" points="260.38902542000005,405.018925082 264.4377302600003,405.77670037999997"/>
+                                    <polyline fill="none" points="264.4377302600003,405.77670037999997 289.2018942200002,405.80750070199997"/>
+                                    <polyline fill="none" points="289.2018942200002,405.80750070199997 289.71108716000026,405.81186954199995"/>
+                                    <polyline fill="none" points="289.71108716000026,405.81186954199995 296.7818314000001,406.12249406599994"/>
+                                    <polyline fill="none" points="296.7818314000001,406.12249406599994 302.6768781200001,406.548455966"/>
+                                    <polyline fill="none" points="302.6768781200001,406.548455966 303.0080605200003,406.554790784"/>
+                                    <polyline fill="none" points="303.0080605200003,406.554790784 306.7752603199999,406.907793056"/>
+                                    <polyline fill="none" points="306.7752603199999,406.907793056 326.7207203600001,407.46700457599997"/>
+                                    <polyline fill="none" points="326.7207203600001,407.46700457599997 343.70209792000014,407.48229551599997"/>
+                                    <polyline fill="none" points="343.70209792000014,407.48229551599997 346.47575052,407.904762344"/>
+                                    <polyline fill="none" points="346.47575052,407.904762344 350.68176700000004,408.09153025399996"/>
+                                    <polyline fill="none" points="350.68176700000004,408.09153025399996 445.7104168999999,408.32373409999997"/>
+                                    <polyline fill="none" points="445.7104168999999,408.32373409999997 570.4047302800002,408.337059062"/>
+                                    <polyline fill="none" points="570.4047302800002,408.337059062 570.4833861000002,408.337714388"/>
+                                </g>
+                            </g>
+                            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="ScatterPlotItem_12">
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M130.12,362.35 C130.12,364.559136 128.329136,366.35 126.12,366.35 C123.910864,366.35 122.12,364.559136 122.12,362.35 C122.12,360.140864 123.910864,358.35 126.12,358.35 C128.329136,358.35 130.12,360.140864 130.12,362.35 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M130.337,387.639 C130.337,389.848136 128.546136,391.639 126.337,391.639 C124.127864,391.639 122.337,389.848136 122.337,387.639 C122.337,385.429864 124.127864,383.639 126.337,383.639 C128.546136,383.639 130.337,385.429864 130.337,387.639 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M138.098,387.786 C138.098,389.995136 136.307136,391.786 134.098,391.786 C131.888864,391.786 130.098,389.995136 130.098,387.786 C130.098,385.576864 131.888864,383.786 134.098,383.786 C136.307136,383.786 138.098,385.576864 138.098,387.786 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M138.146,389.101 C138.146,391.310136 136.355136,393.101 134.146,393.101 C131.93686399999999,393.101 130.146,391.310136 130.146,389.101 C130.146,386.891864 131.93686399999999,385.101 134.146,385.101 C136.355136,385.101 138.146,386.891864 138.146,389.101 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M139.621,389.652 C139.621,391.861136 137.830136,393.652 135.621,393.652 C133.411864,393.652 131.621,391.861136 131.621,389.652 C131.621,387.442864 133.411864,385.652 135.621,385.652 C137.830136,385.652 139.621,387.442864 139.621,389.652 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M147.838,391.95 C147.838,394.159136 146.047136,395.95 143.838,395.95 C141.628864,395.95 139.838,394.159136 139.838,391.95 C139.838,389.740864 141.628864,387.95 143.838,387.95 C146.047136,387.95 147.838,389.740864 147.838,391.95 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M148.217,395.615 C148.217,397.824136 146.426136,399.615 144.217,399.615 C142.007864,399.615 140.217,397.824136 140.217,395.615 C140.217,393.405864 142.007864,391.615 144.217,391.615 C146.426136,391.615 148.217,393.405864 148.217,395.615 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M157.032,397.222 C157.032,399.431136 155.241136,401.222 153.032,401.222 C150.822864,401.222 149.032,399.431136 149.032,397.222 C149.032,395.012864 150.822864,393.222 153.032,393.222 C155.241136,393.222 157.032,395.012864 157.032,397.222 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M167.418,398.61 C167.418,400.819136 165.627136,402.61 163.418,402.61 C161.208864,402.61 159.418,400.819136 159.418,398.61 C159.418,396.400864 161.208864,394.61 163.418,394.61 C165.627136,394.61 167.418,396.400864 167.418,398.61 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M176.983,398.874 C176.983,401.083136 175.192136,402.874 172.983,402.874 C170.773864,402.874 168.983,401.083136 168.983,398.874 C168.983,396.664864 170.773864,394.874 172.983,394.874 C175.192136,394.874 176.983,396.664864 176.983,398.874 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M180.791,400.113 C180.791,402.322136 179.000136,404.113 176.791,404.113 C174.581864,404.113 172.791,402.322136 172.791,400.113 C172.791,397.903864 174.581864,396.113 176.791,396.113 C179.000136,396.113 180.791,397.903864 180.791,400.113 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M187.694,400.504 C187.694,402.713136 185.903136,404.504 183.694,404.504 C181.484864,404.504 179.694,402.713136 179.694,400.504 C179.694,398.294864 181.484864,396.504 183.694,396.504 C185.903136,396.504 187.694,398.294864 187.694,400.504 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M188.595,400.737 C188.595,402.946136 186.804136,404.737 184.595,404.737 C182.385864,404.737 180.595,402.946136 180.595,400.737 C180.595,398.527864 182.385864,396.737 184.595,396.737 C186.804136,396.737 188.595,398.527864 188.595,400.737 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M193.136,401.066 C193.136,403.275136 191.345136,405.066 189.136,405.066 C186.926864,405.066 185.136,403.275136 185.136,401.066 C185.136,398.856864 186.926864,397.066 189.136,397.066 C191.345136,397.066 193.136,398.856864 193.136,401.066 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M193.227,401.142 C193.227,403.351136 191.436136,405.142 189.227,405.142 C187.017864,405.142 185.227,403.351136 185.227,401.142 C185.227,398.932864 187.017864,397.142 189.227,397.142 C191.436136,397.142 193.227,398.932864 193.227,401.142 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M196.204,402.462 C196.204,404.671136 194.413136,406.462 192.204,406.462 C189.994864,406.462 188.204,404.671136 188.204,402.462 C188.204,400.252864 189.994864,398.462 192.204,398.462 C194.413136,398.462 196.204,400.252864 196.204,402.462 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M202.106,403.12 C202.106,405.329136 200.315136,407.12 198.106,407.12 C195.896864,407.12 194.106,405.329136 194.106,403.12 C194.106,400.910864 195.896864,399.12 198.106,399.12 C200.315136,399.12 202.106,400.910864 202.106,403.12 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M202.168,403.179 C202.168,405.388136 200.377136,407.179 198.168,407.179 C195.958864,407.179 194.168,405.388136 194.168,403.179 C194.168,400.969864 195.958864,399.179 198.168,399.179 C200.377136,399.179 202.168,400.969864 202.168,403.179 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M217.02,403.502 C217.02,405.711136 215.229136,407.502 213.02,407.502 C210.810864,407.502 209.02,405.711136 209.02,403.502 C209.02,401.292864 210.810864,399.502 213.02,399.502 C215.229136,399.502 217.02,401.292864 217.02,403.502 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M217.854,403.847 C217.854,406.056136 216.06313600000001,407.847 213.854,407.847 C211.644864,407.847 209.854,406.056136 209.854,403.847 C209.854,401.637864 211.644864,399.847 213.854,399.847 C216.06313600000001,399.847 217.854,401.637864 217.854,403.847 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M241.749,404.12 C241.749,406.329136 239.958136,408.12 237.749,408.12 C235.539864,408.12 233.749,406.329136 233.749,404.12 C233.749,401.910864 235.539864,400.12 237.749,400.12 C239.958136,400.12 241.749,401.910864 241.749,404.12 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M248.037,404.232 C248.037,406.44113600000003 246.246136,408.232 244.037,408.232 C241.827864,408.232 240.037,406.44113600000003 240.037,404.232 C240.037,402.022864 241.827864,400.232 244.037,400.232 C246.246136,400.232 248.037,402.022864 248.037,404.232 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M252.88,404.509 C252.88,406.718136 251.089136,408.509 248.88,408.509 C246.670864,408.509 244.88,406.718136 244.88,404.509 C244.88,402.299864 246.670864,400.509 248.88,400.509 C251.089136,400.509 252.88,402.299864 252.88,404.509 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M252.88,404.568 C252.88,406.777136 251.089136,408.568 248.88,408.568 C246.670864,408.568 244.88,406.777136 244.88,404.568 C244.88,402.358864 246.670864,400.568 248.88,400.568 C251.089136,400.568 252.88,402.358864 252.88,404.568 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M256.118,404.961 C256.118,407.170136 254.327136,408.961 252.118,408.961 C249.908864,408.961 248.118,407.170136 248.118,404.961 C248.118,402.751864 249.908864,400.961 252.118,400.961 C254.327136,400.961 256.118,402.751864 256.118,404.961 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M264.387,405.019 C264.387,407.228136 262.596136,409.019 260.387,409.019 C258.177864,409.019 256.387,407.228136 256.387,405.019 C256.387,402.809864 258.177864,401.019 260.387,401.019 C262.596136,401.019 264.387,402.809864 264.387,405.019 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M268.434,405.777 C268.434,407.986136 266.643136,409.777 264.434,409.777 C262.224864,409.777 260.434,407.986136 260.434,405.777 C260.434,403.567864 262.224864,401.777 264.434,401.777 C266.643136,401.777 268.434,403.567864 268.434,405.777 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M293.197,405.808 C293.197,408.017136 291.406136,409.808 289.197,409.808 C286.987864,409.808 285.197,408.017136 285.197,405.808 C285.197,403.598864 286.987864,401.808 289.197,401.808 C291.406136,401.808 293.197,403.598864 293.197,405.808 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M293.707,405.812 C293.707,408.021136 291.916136,409.812 289.707,409.812 C287.497864,409.812 285.707,408.021136 285.707,405.812 C285.707,403.602864 287.497864,401.812 289.707,401.812 C291.916136,401.812 293.707,403.602864 293.707,405.812 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M300.778,406.123 C300.778,408.332136 298.987136,410.123 296.778,410.123 C294.568864,410.123 292.778,408.332136 292.778,406.123 C292.778,403.913864 294.568864,402.123 296.778,402.123 C298.987136,402.123 300.778,403.913864 300.778,406.123 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M306.676,406.549 C306.676,408.758136 304.885136,410.549 302.676,410.549 C300.466864,410.549 298.676,408.758136 298.676,406.549 C298.676,404.339864 300.466864,402.549 302.676,402.549 C304.885136,402.549 306.676,404.339864 306.676,406.549 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M307.006,406.555 C307.006,408.764136 305.215136,410.555 303.006,410.555 C300.79686399999997,410.555 299.006,408.764136 299.006,406.555 C299.006,404.345864 300.79686399999997,402.555 303.006,402.555 C305.215136,402.555 307.006,404.345864 307.006,406.555 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M310.773,406.908 C310.773,409.117136 308.982136,410.908 306.773,410.908 C304.563864,410.908 302.773,409.117136 302.773,406.908 C302.773,404.698864 304.563864,402.908 306.773,402.908 C308.982136,402.908 310.773,404.698864 310.773,406.908 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M330.716,407.467 C330.716,409.676136 328.925136,411.467 326.716,411.467 C324.506864,411.467 322.716,409.676136 322.716,407.467 C322.716,405.257864 324.506864,403.467 326.716,403.467 C328.925136,403.467 330.716,405.257864 330.716,407.467 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M347.697,407.483 C347.697,409.692136 345.906136,411.483 343.697,411.483 C341.487864,411.483 339.697,409.692136 339.697,407.483 C339.697,405.273864 341.487864,403.483 343.697,403.483 C345.906136,403.483 347.697,405.273864 347.697,407.483 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M350.475,407.905 C350.475,410.114136 348.684136,411.905 346.475,411.905 C344.265864,411.905 342.475,410.114136 342.475,407.905 C342.475,405.695864 344.265864,403.905 346.475,403.905 C348.684136,403.905 350.475,405.695864 350.475,407.905 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M354.678,408.092 C354.678,410.301136 352.887136,412.092 350.678,412.092 C348.468864,412.092 346.678,410.301136 346.678,408.092 C346.678,405.882864 348.468864,404.092 350.678,404.092 C352.887136,404.092 354.678,405.882864 354.678,408.092 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M449.709,408.324 C449.709,410.533136 447.918136,412.324 445.709,412.324 C443.499864,412.324 441.709,410.533136 441.709,408.324 C441.709,406.114864 443.499864,404.324 445.709,404.324 C447.918136,404.324 449.709,406.114864 449.709,408.324 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M574.402,408.338 C574.402,410.547136 572.611136,412.338 570.402,412.338 C568.1928640000001,412.338 566.402,410.547136 566.402,408.338 C566.402,406.128864 568.1928640000001,404.338 570.402,404.338 C572.611136,404.338 574.402,406.128864 574.402,408.338 "/>
+                                </g>
+                                <g fill="#9e0142" fill-opacity="1" stroke="#580125" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                                    <path fill-rule="evenodd" d="M574.48,408.338 C574.48,410.547136 572.689136,412.338 570.48,412.338 C568.2708640000001,412.338 566.48,410.547136 566.48,408.338 C566.48,406.128864 568.2708640000001,404.338 570.48,404.338 C572.689136,404.338 574.48,406.128864 574.48,408.338 "/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="QGraphicsRectItem_2">
+                        
+
+
+                        <g fill="none" stroke="none" transform="matrix(1,0,0,1,66.6,238.5)" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                            
+
+                            <rect x="0" y="0" width="563.4" height="189.9"/>
+                            
+
+                        </g>
+                        
+
+                    </g>
+                </g>
+            </g>
+            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="myAxis_3">
+                <g fill="none" stroke="#323232" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                    <polyline fill="none" points="66.6,428.4 630.0,428.4"/>
+                </g>
+                <g fill="none" stroke="#323232" stroke-opacity="0.501961" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                    <polyline fill="none" points="543.014,238.49999999999997 543.014,428.4"/>
+                </g>
+                <g fill="none" stroke="#323232" stroke-opacity="0.25098" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                    <polyline fill="none" points="157.6764,238.49999999999997 157.6764,428.4"/>
+                    <polyline fill="none" points="254.011,238.49999999999997 254.011,428.4"/>
+                    <polyline fill="none" points="350.345,238.49999999999997 350.345,428.4"/>
+                    <polyline fill="none" points="446.679,238.49999999999997 446.679,428.4"/>
+                </g>
+                <g fill="none" stroke="#323232" stroke-opacity="0.164706" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                    <polyline fill="none" points="109.50919999999999,238.49999999999997 109.50919999999999,428.4"/>
+                    <polyline fill="none" points="205.844,238.49999999999997 205.844,428.4"/>
+                    <polyline fill="none" points="302.178,238.49999999999997 302.178,428.4"/>
+                    <polyline fill="none" points="398.51199999999994,238.49999999999997 398.51199999999994,428.4"/>
+                    <polyline fill="none" points="494.847,238.49999999999997 494.847,428.4"/>
+                    <polyline fill="none" points="591.181,238.49999999999997 591.181,428.4"/>
+                </g>
+                <g fill="none" stroke="#323232" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,66.6,428.4)" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="461.875" y="16" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">0.04</text>
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="72.3125" y="16" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">0.032</text>
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="168.656" y="16" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">0.034</text>
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="264.984" y="16" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">0.036</text>
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="361.328" y="16" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">0.038</text>
+                </g>
+                <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="QGraphicsTextItem_3">
+                    
+
+
+                    
+
+
+                    
+
+
+                    <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,294.6,447.4)" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                        <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="19" font-family="39" font-size="16" font-weight="400" font-style="normal">Objective_0 </text>
+                    </g>
+                    
+
+
+                    
+
+                </g>
+            </g>
+            <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="myAxis_4">
+                <g fill="none" stroke="#323232" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                    <polyline fill="none" points="66.6,238.5 66.6,428.4"/>
+                </g>
+                <g fill="none" stroke="#323232" stroke-opacity="0.501961" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                    <polyline fill="none" points="630.0,299.3037 66.6,299.3037"/>
+                </g>
+                <g fill="none" stroke="#323232" stroke-opacity="0.25098" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                    <polyline fill="none" points="630.0,394.627 66.6,394.627"/>
+                    <polyline fill="none" points="630.0,346.966 66.6,346.966"/>
+                    <polyline fill="none" points="630.0,251.6419 66.6,251.6419"/>
+                </g>
+                <g fill="none" stroke="#323232" stroke-opacity="0.164706" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                    <polyline fill="none" points="630.0,418.45799999999997 66.6,418.45799999999997"/>
+                    <polyline fill="none" points="630.0,370.796 66.6,370.796"/>
+                    <polyline fill="none" points="630.0,323.1346 66.6,323.1346"/>
+                    <polyline fill="none" points="630.0,275.4728 66.6,275.4728"/>
+                </g>
+                <g fill="none" stroke="#323232" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,10,238.5)" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="31" y="66.2969" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">0.1</text>
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="22.5469" y="161.625" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">0.06</text>
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="22.5469" y="113.953" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">0.08</text>
+                    <text fill="#323232" fill-opacity="1" stroke="none" xml:space="preserve" x="22.5469" y="18.6406" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">0.12</text>
+                </g>
+                <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" id="QGraphicsTextItem_4">
+                    
+
+
+                    
+
+
+                    
+
+
+                    <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0,-1,1,0,0,386.5)" font-family="Ubuntu" font-size="14.6667" font-weight="400" font-style="normal">
+                        <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="19" font-family="39" font-size="16" font-weight="400" font-style="normal">Objective_1 </text>
+                    </g>
+                    
+
+
+                    
+
+                </g>
+            </g>
+        </g>
+    </g>
+</g>
+
+</svg>

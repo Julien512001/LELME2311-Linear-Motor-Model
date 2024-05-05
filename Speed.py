@@ -13,7 +13,7 @@ dt = 0.01
 t = np.arange(0, t_total, dt)
 
 # Calcul de l'accélération nécessaire pour atteindre la distance donnée
-a_max = 5
+a_max = 2 * distance / t_total ** 2
 
 # Création du vecteur d'accélération
 a = np.zeros_like(t)

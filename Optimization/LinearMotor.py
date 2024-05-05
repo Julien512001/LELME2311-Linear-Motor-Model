@@ -5,7 +5,7 @@ from scipy.linalg import solve
 
 class LinearMotor:
 
-    n_harm = 100
+    n_harm = 50
 
     Br = 1.21
 
@@ -34,12 +34,15 @@ class LinearMotor:
 
     # Nominal voltage [V]
     U_max = 600
+    U_ph = U_max/np.sqrt(3)
 
     # Payload [kg]
     m_pay = 0.15
 
     # Resistivity of the copper [Ohm.m]
-    rho_r = 17e-19
+    rho_r = 1.7e-8
+
+    p = 1
 
     def __init__(self, tau_k, e, hm, ha, Lz, lq):
         self.tau_k = tau_k
@@ -56,9 +59,7 @@ class LinearMotor:
         self.R = (self.tau_k - self.e/2)/2
         self.lq = lq
 
-    def constant(self):
-        # Courant de la machine
-        self.I = self.J * self.Sbob  * self.eta/self.Nt
+
 
     def systemResolution(self):
         b = np.zeros((8,self.n_harm))
@@ -128,7 +129,6 @@ class LinearMotor:
         return b
 
     def get_F_active(self):
-        self.constant()
         b = self.systemResolution()
     
         omega_n = np.pi/self.tau_k
@@ -148,14 +148,13 @@ class LinearMotor:
 
         psi_fond = self.Nt*2*self.Lz*A_fond
 
-        F_active = 3/2 * omega_n * psi_fond * self.I
+        F_active = 3/2 * omega_n * psi_fond * self.get_current()
 
         self.F_active = F_active
 
-        return F_active
+        return self.p*F_active
 
     def get_THD(self):
-        self.constant()
         b = self.systemResolution()
         q = np.linspace(-self.tau_k, self.tau_k, 1000)
 
@@ -200,26 +199,46 @@ class LinearMotor:
 
         return THD
     
-    def get_mass(self):
-        return self.eta*(2*self.Sbob*self.Lz + 2*np.pi**2 * (self.lq/2)**2*self.R)*self.rho_cu
+    def get_lqlp(self):
+        return self.lq, self.lp
+    
+    def get_current(self):
+        # Courant de la machine
+        return self.J * self.get_Sbob() * self.eta/ self.Nt
+    
+    def get_windingMass(self):
+        return 3*self.p * self.eta*(2*self.Sbob*self.Lz + 2*np.pi**2 * (self.lq/2)**2*self.R)*self.rho_cu
+
+    def get_payloadMass(self):
+        return self.m_pay
+    
+    def get_totalMass(self):
+        return self.get_payloadMass() + self.get_windingMass()
     
     def get_vmax(self):
         F = self.get_F_active()
-        mass = self.get_mass() + self.m_pay
+        mass = self.get_totalMass()
         return np.sqrt(F*self.d_max/mass)
-    
-    def get_Nspire(self):
-        v_max = self.get_vmax()
-        kphi = self.get_F_active()/self.I
 
-        return np.sqrt((self.U_max - kphi * v_max)*self.Sbob * self.eta/(self.rho_r*(2*self.Lz + 4*np.pi*self.R)))
+    def get_lSpire(self):
+        return 2*self.Lz + 4*np.pi*self.R
+
+    def get_Sbob(self):
+        return self.Sbob
+
+    def get_Nspire(self):
+        return self.U_ph/self.get_Uspire()
+
+    def get_Uspire(self):
+        return self.rho_r*self.get_lSpire()/(self.get_Sbob()) + self.get_F_active()/self.get_current() * self.get_vmax()
+    
+    def get_Sfil(self):
+        return self.get_Sbob()*self.eta/self.get_Nspire()
 
     def get_time(self):
         F = self.get_F_active()
-        mass = self.get_mass() + self.m_pay
+        mass = self.get_totalMass()
         return 4*np.sqrt(mass*self.d_max/F)
-
-
 
     def myMotor(self):
         self.get_F_active()
@@ -232,12 +251,17 @@ class LinearMotor:
 # tau_k, e, hm, ha, Lz, lq
 
 # lq < e/2
-p1 = LinearMotor(100e-3, 10e-3, 7e-3, 3e-3, 30e-3, 2e-3)
+#p1 = LinearMotor(13.63e-3, 4.54e-3, 10e-3, 3e-3, 40e-3, 1.13e-3)
 
-p1.myMotor()
-mass = p1.get_mass()
-print(mass*1000)
-vmax = p1.get_vmax()
-print(vmax)
-t = p1.get_time()
-print(t)
+
+
+"""
+Nspire = p1.get_Nspire()
+print("Nspire = {}".format(Nspire))
+
+l = p1.get_lSpire()
+print("l = {}".format(l))
+
+Sbob = p1.get_Sbob()
+print("Sbob = {}".format(Sbob))
+"""
