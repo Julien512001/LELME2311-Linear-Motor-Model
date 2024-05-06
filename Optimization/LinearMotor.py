@@ -204,10 +204,10 @@ class LinearMotor:
     
     def get_current(self):
         # Courant de la machine
-        return self.J * self.get_Sbob() * self.eta/ self.Nt
+        return self.J * self.get_Sbob()
     
     def get_windingMass(self):
-        return 3*self.p * self.eta*(2*self.Sbob*self.Lz + 2*np.pi**2 * (self.lq/2)**2*self.R)*self.rho_cu
+        return 3*self.p * (2*self.Sbob*self.Lz + 2*np.pi**2 * (self.lq/2)**2*self.R)*self.rho_cu
 
     def get_payloadMass(self):
         return self.m_pay
@@ -221,7 +221,10 @@ class LinearMotor:
         return np.sqrt(F*self.d_max/mass)
 
     def get_lSpire(self):
-        return 2*self.Lz + 4*np.pi*self.R
+        return 2*self.Lz + 2*np.pi*self.R
+    
+    def get_lBobinage(self):
+        return self.get_Nspire()*self.get_lSpire()
 
     def get_Sbob(self):
         return self.Sbob
@@ -239,6 +242,27 @@ class LinearMotor:
         F = self.get_F_active()
         mass = self.get_totalMass()
         return 4*np.sqrt(mass*self.d_max/F)
+    
+        
+
+    
+    def get_optiCurrent(self):
+        return self.get_Sbob()*self.eta*self.J/self.get_Nspire()
+
+    def get_optiMass(self):
+        return self.eta*self.get_windingMass() + self.get_payloadMass()
+
+    def get_optiVmax(self):
+        F = self.get_F_active()
+        mass = self.get_optiMass()
+        return np.sqrt(F*self.d_max/mass)
+
+    def get_optiTime(self):
+        F = self.get_F_active()
+        mass = self.get_optiMass()
+        return 4*np.sqrt(mass*self.d_max/F)
+
+
 
     def myMotor(self):
         self.get_F_active()
@@ -249,13 +273,14 @@ class LinearMotor:
 
 
 # tau_k, e, hm, ha, Lz, lq
-
-# lq < e/2
-#p1 = LinearMotor(13.63e-3, 4.54e-3, 10e-3, 3e-3, 40e-3, 1.13e-3)
-
-
-
 """
+# lq < e/2
+p1 = LinearMotor(13.63e-3, 4.54e-3, 10e-3, 5e-3, 40e-3, 3e-3)
+
+Uspire = p1.get_Uspire()
+print("Uspire = {}".format(Uspire))
+
+
 Nspire = p1.get_Nspire()
 print("Nspire = {}".format(Nspire))
 

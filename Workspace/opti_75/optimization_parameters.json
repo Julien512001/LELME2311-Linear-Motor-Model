@@ -1,0 +1,101 @@
+{
+    "__module__": "optimeed.optimize.optimizer",
+    "__class__": "OptimizerSettings",
+    "theDevice": {
+        "__module__": "Optimization",
+        "__class__": "Device",
+        "tau_k": 0,
+        "e": 0,
+        "hm": 0,
+        "ha": 0,
+        "Lz": 0,
+        "lq": 0
+    },
+    "theMathsToPhysics": {
+        "__module__": "optimeed.optimize.mathsToPhysics.mathsToPhysics",
+        "__class__": "MathsToPhysics"
+    },
+    "theCharacterization": {
+        "__module__": "Optimization",
+        "__class__": "Characterization"
+    },
+    "theOptimizationAlgorithm": {
+        "__module__": "optimeed.optimize.optiAlgorithms.multiObjective_GA",
+        "__class__": "MultiObjective_GA",
+        "options_bool": {},
+        "options_str": {
+            "1": {
+                "name": "Optimization algorithm",
+                "value": "NSGAII"
+            }
+        },
+        "options_int": {},
+        "options_float": {},
+        "options_dict": {
+            "3": {
+                "name": "Keywords arguments to send to the optimization algorithm",
+                "value": {}
+            }
+        }
+    },
+    "theObjectives": [
+        {
+            "__module__": "Optimization",
+            "__class__": "MyObjective1"
+        },
+        {
+            "__module__": "Optimization",
+            "__class__": "MyObjective3"
+        }
+    ],
+    "theConstraints": [
+        {
+            "__module__": "Optimization",
+            "__class__": "MyConstraint1"
+        }
+    ],
+    "theOptimizationVariables": [
+        {
+            "__module__": "optimeed.optimize.optiVariable",
+            "__class__": "Real_OptimizationVariable",
+            "val_min": 0.001,
+            "val_max": 0.025,
+            "attributeName": "tau_k"
+        },
+        {
+            "__module__": "optimeed.optimize.optiVariable",
+            "__class__": "Real_OptimizationVariable",
+            "val_min": 0.001,
+            "val_max": 0.02,
+            "attributeName": "e"
+        },
+        {
+            "__module__": "optimeed.optimize.optiVariable",
+            "__class__": "Real_OptimizationVariable",
+            "val_min": 0.001,
+            "val_max": 0.01,
+            "attributeName": "hm"
+        },
+        {
+            "__module__": "optimeed.optimize.optiVariable",
+            "__class__": "Real_OptimizationVariable",
+            "val_min": 0.001,
+            "val_max": 0.005,
+            "attributeName": "ha"
+        },
+        {
+            "__module__": "optimeed.optimize.optiVariable",
+            "__class__": "Real_OptimizationVariable",
+            "val_min": 0.001,
+            "val_max": 0.05,
+            "attributeName": "Lz"
+        },
+        {
+            "__module__": "optimeed.optimize.optiVariable",
+            "__class__": "Real_OptimizationVariable",
+            "val_min": 0.001,
+            "val_max": 0.005,
+            "attributeName": "lq"
+        }
+    ]
+}

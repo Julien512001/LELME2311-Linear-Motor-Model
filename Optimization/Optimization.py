@@ -94,7 +94,14 @@ class MyObjective3(InterfaceObjCons):
         return Time
 
 
-class MyConstraint(InterfaceObjCons):
+class MyConstraint1(InterfaceObjCons):
+    """Constraints, that needs to be <= 0"""
+    def compute(self, thedevice):
+        lq = thedevice.lq
+        e = thedevice.e
+        return lq - e/2
+    
+class MyConstraint2(InterfaceObjCons):
     """Constraints, that needs to be <= 0"""
     def compute(self, thedevice):
         lq = thedevice.lq
@@ -121,16 +128,16 @@ if __name__ == "__main__":  # This line is necessary to spawn new processes
     optimizationVariables.append(Real_OptimizationVariable('lq', 1e-3, 10e-3))
     """
     
-    optimizationVariables.append(Real_OptimizationVariable('tau_k', 1e-3, 30e-3))
-    optimizationVariables.append(Real_OptimizationVariable('e', 1e-3, 10e-3))
+    optimizationVariables.append(Real_OptimizationVariable('tau_k', 1e-3, 25e-3))
+    optimizationVariables.append(Real_OptimizationVariable('e', 1e-3, 20e-3))
     optimizationVariables.append(Real_OptimizationVariable('hm', 1e-3, 10e-3))
-    optimizationVariables.append(Real_OptimizationVariable('ha', 1e-3, 10e-3))
+    optimizationVariables.append(Real_OptimizationVariable('ha', 1e-3, 5e-3))
     optimizationVariables.append(Real_OptimizationVariable('Lz', 1e-3, 50e-3))
     optimizationVariables.append(Real_OptimizationVariable('lq', 1e-3, 5e-3))
 
     """Objective and constraints"""
     listOfObjectives = [MyObjective1(), MyObjective3()]
-    listOfConstraints = [MyConstraint()]
+    listOfConstraints = [MyConstraint1()]
 
     """Set the optimizer"""
     theOptiSettings = OptimizerSettings(theDevice, listOfObjectives, listOfConstraints, optimizationVariables,
@@ -150,7 +157,7 @@ if __name__ == "__main__":  # This line is necessary to spawn new processes
     # theEvaluator = PermanentMultiprocessEvaluator(theOptiSettings, number_of_cores=2)  # Third evaluator -> Parallel run, initializes Charac() at startup.
 
     """Start the optimization"""
-    max_opti_time_sec = 200
+    max_opti_time_sec = 300
 
     display_opti = True
 

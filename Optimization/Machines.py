@@ -33,7 +33,7 @@ plt.xlabel('THD')
 plt.ylabel('Time')
 plt.grid(True)
 
-i = 1
+i = 5
 
 p = LinearMotor(tau_k[i], e[i], hm[i], ha[i], Lz[i], lq[i])
 
@@ -67,6 +67,23 @@ print("Sfil = {}".format(Sfil))
 I = p.get_current()
 print("I = {}".format(I))
 
+lspire = p.get_lSpire()
+print("lspire = {}".format(lspire))
+
+lbob = p.get_lBobinage()
+print("lbob = {}".format(lbob))
+
+opti_I = p.get_optiCurrent()
+print("opti_I = {}".format(opti_I))
+
+opti_mass = p.get_optiMass()
+print("opti_mass = {}".format(opti_mass))
+
+opti_vmax = p.get_optiVmax()
+print("opti_vmax = {}".format(opti_vmax))
+
+opti_time = p.get_optiTime()
+print("opti_time = {}".format(opti_time))
 
 lq, lp = p.get_lqlp()
 print("lq = {}".format(lq))
