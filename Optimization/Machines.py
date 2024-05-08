@@ -33,9 +33,16 @@ plt.xlabel('THD')
 plt.ylabel('Time')
 plt.grid(True)
 
-i = 5
+i = 2
 
 p = LinearMotor(tau_k[i], e[i], hm[i], ha[i], Lz[i], lq[i])
+
+print("tau_k = {}".format(tau_k[i]))
+print("e = {}".format(e[i]))
+lmagnet = tau_k[i] - e[i]
+print("lmagnet = {}".format(lmagnet))
+
+
 
 F_active = p.get_F_active()
 print("F_active = {}".format(F_active))
@@ -88,5 +95,31 @@ print("opti_time = {}".format(opti_time))
 lq, lp = p.get_lqlp()
 print("lq = {}".format(lq))
 print("lp = {}".format(lp))
+
+
+# Define the function
+def dimension(q, e, tau_k):
+    profile = np.zeros_like(q)
+    profile[(q >= -tau_k) & (q < -tau_k + e/2)] = 0
+    profile[(q >= -tau_k + e/2) & (q < -e/2)] = 1
+    profile[(q >= -e/2) & (q <= e/2)] = 0
+    profile[(q >= e/2) & (q < tau_k - e/2)] = 1
+    profile[(q >= tau_k - e/2) & (q <= tau_k)] = 0
+    return profile
+
+n_mesh = 500
+
+q = np.linspace(-tau_k[i] - 0.1, tau_k[i] + 0.1, n_mesh)
+
+
+# Plotting
+plt.figure(figsize=(8, 6))
+plt.plot(q, dimension(q, e[i], tau_k[i]), color='b', label='Magnetization Profile')
+plt.xlabel('q [mm]')
+plt.ylabel('$M_p$')
+plt.title('Magnetization Profile')
+plt.grid(True)
+plt.legend()
+plt.show()
 
 plt.show()

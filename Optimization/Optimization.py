@@ -104,9 +104,9 @@ class MyConstraint1(InterfaceObjCons):
 class MyConstraint2(InterfaceObjCons):
     """Constraints, that needs to be <= 0"""
     def compute(self, thedevice):
-        lq = thedevice.lq
+        tau_k = thedevice.tau_k
         e = thedevice.e
-        return lq - e/2
+        return e - tau_k
 
 
 if __name__ == "__main__":  # This line is necessary to spawn new processes
@@ -137,7 +137,7 @@ if __name__ == "__main__":  # This line is necessary to spawn new processes
 
     """Objective and constraints"""
     listOfObjectives = [MyObjective1(), MyObjective3()]
-    listOfConstraints = [MyConstraint1()]
+    listOfConstraints = [MyConstraint1(), MyConstraint2()]
 
     """Set the optimizer"""
     theOptiSettings = OptimizerSettings(theDevice, listOfObjectives, listOfConstraints, optimizationVariables,
@@ -170,9 +170,17 @@ if __name__ == "__main__":  # This line is necessary to spawn new processes
         theActionsOnClick.append(Onclick_representDevice(theDataLink, [Represent_brut_attributes()]))
         optiDisplayer.set_actionsOnClick(theActionsOnClick)
 
+        start_time = time.time()  # Mark the starting time of the optimization
+
+
         resultsOpti, convergence = optiDisplayer.launch_optimization([theOptiSettings, theOptiHistoric],
                                                                      {"max_opti_time_sec": max_opti_time_sec, "evaluator": theEvaluator},
                                                                      refresh_time=0.1, max_nb_points_convergence=None)  # Refresh the graphs each nth seconds
+
+        # Calculate remaining time
+        elapsed_time = time.time() - start_time
+        remaining_time = max_opti_time_sec - elapsed_time
+        print(f"Remaining time: {remaining_time} seconds")
 
     else:  # Otherwise just focus on results ... That can be helpful if you are confident the optimizations will converge and you need to launch several optimizations.
         resultsOpti, convergence = run_optimization(theOptiSettings, theOptiHistoric, max_opti_time_sec=max_opti_time_sec, evaluator=theEvaluator)

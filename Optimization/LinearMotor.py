@@ -142,9 +142,10 @@ class LinearMotor:
         Aps = C*np.exp(self.y*omega_n) + D*np.exp(-self.y*omega_n)
         Apc = A*np.exp(self.y*omega_n) + B*np.exp(-self.y*omega_n) + self.mu0*Mps/omega_n
 
-        q = np.linspace(-self.tau_k, self.tau_k, 1000)
-
-        A_fond = np.max(Aps*np.sin(omega_n*q) + Apc*np.cos(omega_n*q))
+        #q = np.linspace(-self.tau_k, self.tau_k, 1000)
+        q = -self.tau_k + self.e/4
+        #A_fond = np.max(Aps*np.sin(omega_n*q) + Apc*np.cos(omega_n*q))
+        A_fond = (Aps*np.sin(omega_n*q) + Apc*np.cos(omega_n*q))
 
         psi_fond = self.Nt*2*self.Lz*A_fond
 
@@ -233,7 +234,7 @@ class LinearMotor:
         return self.U_ph/self.get_Uspire()
 
     def get_Uspire(self):
-        return self.rho_r*self.get_lSpire()/(self.get_Sbob()) + self.get_F_active()/self.get_current() * self.get_vmax()
+        return self.rho_r*self.get_lSpire()/(self.get_Sbob()) + 2/3*self.get_F_active()/self.get_current() * self.get_vmax()
     
     def get_Sfil(self):
         return self.get_Sbob()*self.eta/self.get_Nspire()
