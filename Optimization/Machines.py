@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from LinearMotor import *
 
 # Charger les données depuis le fichier CSV
-data = pd.read_csv('Optimization/OptimalMachines.csv')
+data = pd.read_csv('Optimization/optimisation3.csv')
 
 # Extraire les colonnes Force et THD dans des listes
 machine = data["Machine"].tolist()
@@ -33,7 +33,7 @@ plt.xlabel('THD')
 plt.ylabel('Time')
 plt.grid(True)
 
-i = 2
+i = 1
 
 p = LinearMotor(tau_k[i], e[i], hm[i], ha[i], Lz[i], lq[i])
 

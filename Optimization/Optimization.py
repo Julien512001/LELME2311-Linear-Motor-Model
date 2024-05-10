@@ -157,7 +157,7 @@ if __name__ == "__main__":  # This line is necessary to spawn new processes
     # theEvaluator = PermanentMultiprocessEvaluator(theOptiSettings, number_of_cores=2)  # Third evaluator -> Parallel run, initializes Charac() at startup.
 
     """Start the optimization"""
-    max_opti_time_sec = 300
+    max_opti_time_sec = 2500
 
     display_opti = True
 
